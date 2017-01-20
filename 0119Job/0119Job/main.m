@@ -13,10 +13,12 @@
 int main(int argc, const char * argv[]) {
 
         
-        Man *name = [[Man allock] init];
-        name.e1 = @"준";
+        Man *m1 = [[Man alloc] init];
+        m1.name = @"준";
         
-        
-    }
+    
+    
+    
+    
     return 0;
 }
