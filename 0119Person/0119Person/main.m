@@ -33,11 +33,17 @@ int main(int argc, const char * argv[]) {
         NSLog(@"Hello, World!");
         
         Person *man = [[Person alloc] init];
+        man.name = @"잭";
         
         
-        Student *tom = [[Student alloc] init];
-        tom.name = @"톰";
+
+        Student *tom = [[Student alloc] initWithName:@"톰"];
+//      Student *tom = [[Student alloc] init];
+//      tom.name = @"톰";
         tom.age = 15;
+        NSLog(@"%@",tom.name);
+        
+        
         
         Student *math = [[Student alloc] init];
         math.item = @"수학";

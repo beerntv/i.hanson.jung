@@ -19,6 +19,7 @@
 
 
 - (id)studyTo;
+- (instancetype)initWithName:(NSString *)name;
 
 
 @end
