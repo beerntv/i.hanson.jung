@@ -27,11 +27,19 @@
     
 }
 
-//-부피
+//-실린더부피
 -(CGFloat)cylinder:(CGFloat)r
             height:(CGFloat)h
 {
     CGFloat result = M_PI * r * r * h;
+    return result;
+    
+}
+
+//-구 부피
+-(CGFloat)sphere:(CGFloat)r
+{
+    CGFloat result = ((CGFloat)4/3) * M_PI * r * r * r;
     return result;
     
 }

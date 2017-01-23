@@ -16,9 +16,10 @@
 //-둘레
 -(CGFloat)circlePerimeter:(CGFloat)r;
 
-//-부피
+//-실린더부피
 -(CGFloat)cylinder:(CGFloat)r
             height:(CGFloat)h;
-
+//-구부피
+-(CGFloat)sphere:(CGFloat)r;
 
 @end

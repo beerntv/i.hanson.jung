@@ -11,6 +11,10 @@
 #import "Rectangle.h"
 #import "InchToCm.h"
 #import "Circle.h"
+#import "Triangle.h"
+#import "Trapezoid.h"
+#import "Cone.h"
+
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -71,8 +75,31 @@ int main(int argc, const char * argv[]) {
         NSLog(@"원의 실린더 부피는 %f 입니다", cylinder);
         
         //구 부피
+        CGFloat sphere = [c1 sphere:(CGFloat)10];
+        NSLog(@"구의 부피는 %f 입니다", sphere);
+        //
         
-//
+//삼각형 면적
+        Triangle *tr1 = [[Triangle alloc] init];
+        
+        CGFloat triangle = [tr1 triangle:(CGFloat)10
+                                  height:(CGFloat)20];
+        NSLog(@"삼각형의 면적은 %f 입니다", triangle);
+        
+//사다리꼴 면적
+        Trapezoid *tz1 = [[Trapezoid alloc] init];
+        CGFloat trapezoid = [tz1 trapezoid:(CGFloat)10
+                                    upSide:(CGFloat)5
+                                     height:(CGFloat)10];
+        NSLog(@"사다리꼴의 면적은 %f 입니다", trapezoid);
+
+//원뿔부피
+        Cone *co1 = [[Cone alloc] init];
+        CGFloat cone = [co1 cone:(CGFloat)10
+                         height:(CGFloat)10];
+        NSLog(@"원뿔부피는 %f 입니다",cone);
+        
+                        
         
         
     }

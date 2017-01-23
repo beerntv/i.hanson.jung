@@ -12,6 +12,9 @@
 		EF1EE5661E35E3CF006343D7 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1EE5651E35E3CF006343D7 /* Rectangle.m */; };
 		EF1EE56F1E35F6EF006343D7 /* InchToCm.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1EE56E1E35F6EF006343D7 /* InchToCm.m */; };
 		EF1EE5721E36367C006343D7 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1EE5711E36367C006343D7 /* Circle.m */; };
+		EF1EE5751E364F80006343D7 /* Triangle.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1EE5741E364F80006343D7 /* Triangle.m */; };
+		EF1EE5781E364FAB006343D7 /* Trapezoid.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1EE5771E364FAB006343D7 /* Trapezoid.m */; };
+		EF1EE57B1E364FC6006343D7 /* Cone.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1EE57A1E364FC6006343D7 /* Cone.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +40,12 @@
 		EF1EE56E1E35F6EF006343D7 /* InchToCm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InchToCm.m; sourceTree = "<group>"; };
 		EF1EE5701E36367C006343D7 /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
 		EF1EE5711E36367C006343D7 /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		EF1EE5731E364F80006343D7 /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Triangle.h; sourceTree = "<group>"; };
+		EF1EE5741E364F80006343D7 /* Triangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Triangle.m; sourceTree = "<group>"; };
+		EF1EE5761E364FAB006343D7 /* Trapezoid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trapezoid.h; sourceTree = "<group>"; };
+		EF1EE5771E364FAB006343D7 /* Trapezoid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trapezoid.m; sourceTree = "<group>"; };
+		EF1EE5791E364FC6006343D7 /* Cone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cone.h; sourceTree = "<group>"; };
+		EF1EE57A1E364FC6006343D7 /* Cone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cone.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +85,12 @@
 				EF1EE5651E35E3CF006343D7 /* Rectangle.m */,
 				EF1EE5701E36367C006343D7 /* Circle.h */,
 				EF1EE5711E36367C006343D7 /* Circle.m */,
+				EF1EE5731E364F80006343D7 /* Triangle.h */,
+				EF1EE5741E364F80006343D7 /* Triangle.m */,
+				EF1EE5761E364FAB006343D7 /* Trapezoid.h */,
+				EF1EE5771E364FAB006343D7 /* Trapezoid.m */,
+				EF1EE5791E364FC6006343D7 /* Cone.h */,
+				EF1EE57A1E364FC6006343D7 /* Cone.m */,
 				EF1EE56D1E35F6EF006343D7 /* InchToCm.h */,
 				EF1EE56E1E35F6EF006343D7 /* InchToCm.m */,
 			);
@@ -142,8 +157,11 @@
 				EF1EE5631E35D40F006343D7 /* Square.m in Sources */,
 				EF1EE55B1E35D3E4006343D7 /* main.m in Sources */,
 				EF1EE5721E36367C006343D7 /* Circle.m in Sources */,
+				EF1EE5781E364FAB006343D7 /* Trapezoid.m in Sources */,
 				EF1EE56F1E35F6EF006343D7 /* InchToCm.m in Sources */,
 				EF1EE5661E35E3CF006343D7 /* Rectangle.m in Sources */,
+				EF1EE57B1E364FC6006343D7 /* Cone.m in Sources */,
+				EF1EE5751E364F80006343D7 /* Triangle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
