@@ -8,8 +8,22 @@
 
 #import "Circle.h"
 
-@implementation Circle
+//pi 반복되어 프로퍼티로 init 시킬때
+//@property CGFloat PI;
 
+
+@implementation Circle
+/*
+//pi 반복되어 프로퍼티로 init 시킬때 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        self.PI = 3.14
+    }
+    return self;
+}
+*/
 //-넓이
 -(CGFloat)circle:(NSUInteger)r
 {
