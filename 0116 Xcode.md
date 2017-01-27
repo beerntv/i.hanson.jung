@@ -3,7 +3,7 @@
 조금이라도 모르는건 호기심, 검색, 질문해!
 
 
-## Xcode
+## Xcode 시작
 
 
 ### - playground - swift 용
@@ -14,34 +14,48 @@
 
 swift는 스크립트형 언어로 작성된다 (내부적으로는 컴파일을 한다)
 
-### target    
+## project
 
-### project
+![](http://cfile30.uf.tistory.com/image/23363F4557831744332F1F)
 
-### workspace    
-project파일이 하나 이상
+- Get started with a playground : Swift의 언어 연습장
+- Create a new Xcode project: 새로운 Xcode 프로젝트 만들기
+- Check out an existing project : 이미 만들어진 원격 저장소의 협업 프로젝트를 불러오기
 
-### ios 템플릿 > Single  View App.
+#### target 
+#### workspace   : project파일이 하나 이상
+
+
+## ios 템플릿 > Single  View App.
 우선은 제일 기본인 싱글뷰로 시작한다.   
 말그대로 템플릿. 차후에 변경가능하다.
+![](http://cfile1.uf.tistory.com/image/21488F455783174608BBA6)
 
+- Mater - Detail : 업무용 앱을 제작하기 위한 Productivity 타입의 템플리트
+- Page Based : 책 형태의 앱을 만들기 위한 템플릿 입니다. 여러 장의 페이지로 이루어진 템플리트
+- Single View : 기본 뷰 하나가 제공되는 가장 많이 사용되는 템플리트
+- Tabbed : 화면 아래 탭을 가지는 형태의 뷰 구조를 제공하는 템플리트
+- Game : 게임 제작을 위한 템플리트
 
-### macOS > Command Line Tool   
+## macOS > Command Line Tool   
 가장 기본적인 템플릿
 
-### Product Name : only English!
-### team : 결제...
-### 회사명
-### organization identifier 회사 id   
-project 명은 product 명 + 회사 id
-### bundle identifier 
+![](http://cfile7.uf.tistory.com/image/2245004557831748322974)
+
+- Product Name : only English!
+- team : 결제...
+- 회사명
+- organization identifier 회사 id : project 명은 product 명 + 회사 id
+- bundle identifier 
 
 
 Assets    
 info 설정
 
 Build and then run the current scheme
+
 ## Xcode Main Window 
+
 - Navigator : 프로젝트 관리를 위한 도구 모음
 - Editor : 프로젝트 네비게이터에서 선택한 파일의 내용을 수정하는 화면
 - Debug Area : 프로그램 실행 중 디버깅을 위한 콘솔창
