@@ -55,11 +55,14 @@ info 설정
 Build and then run the current scheme
 
 ## Xcode Main Window 
+![](https://github.com/hansonjung/i.hanson.jung/blob/master/image/스크린샷%202017-01-27%20오후%202.16.15.png?raw=true)
 
 - Navigator : 프로젝트 관리를 위한 도구 모음
 - Editor : 프로젝트 네비게이터에서 선택한 파일의 내용을 수정하는 화면
 - Debug Area : 프로그램 실행 중 디버깅을 위한 콘솔창
 - Utilities : 프로젝트 네비게이터에서 선택된 파일의 상세 정보 및 ui속성 수정 등의 작업을 위한 공간
+
+## Toolbar
 
 - Run 
 - stop   
@@ -74,35 +77,11 @@ Build and then run the current scheme
 ## Navigator Area 
 
 - ViewController.h   
-```
-@property (nonatomic, weak) IBOutlet UILabel *titleLB;
-```   
-
+헤더파일
 - ViewController.m   
-
-   ```
-    NSLog(@"브레이크 포인트 전");
-    
-    NSLog(@"브레이크 포인트 후");
-    
-    NSLog(@"중간 공백........");
-    
-    NSLog(@"다음 브레이크 포인트 전");
-    
-    NSLog(@"다음 브레이크 포인트 후");
-```
-    
-
-
-NSLog
-
-
-
-- (IBAction)btnAction
-{
-    //NSLog(@"버튼이 클릭되었습니다");
-    
-    self.titleLB setText:@"걱정따윈 필요없어! \n내친구와 함께니까"
+소스파일
+c++의 소스파일은 .mm 
+   
     
 ##    명명법
 - 시스템 예약어를 사용할 수 없다.
@@ -113,15 +92,14 @@ NSLog
 (언더바_를 사용하기도 하지만, 흔치않다. back-end에서 흔한 명명법. 대문자를 안쓰기 때문에)
 
 
-
 ## 객체지향 프로그래밍
 
-- swift는 객체지향형, 함수형, 
+- swift는 객체지향형, 함수형, 프로토콜지향형...
 
 
 ## Homework
 
-- 추상화, 은닉화, 캡슐화, 상속성, 다형성
+- 추상화, 은닉화, 캡슐화, 상속성, 다형성에 대해 알아보자
 
 ## 주석 - comment
 

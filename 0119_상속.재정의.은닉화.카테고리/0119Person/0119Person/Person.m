@@ -12,8 +12,6 @@
 
 @property NSInteger weight;
 @property NSInteger height;
-
-
 @property NSInteger count;
 
 @end
