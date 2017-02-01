@@ -14,6 +14,8 @@ int main(int argc, const char * argv[]) {
         
         //for 구구단
         [Calculator timesTable:8];
+        //for 감소
+        [Calculator timesTableReverse:8];
         
         //while 구구단
         [Calculator timesTableWhile:7];

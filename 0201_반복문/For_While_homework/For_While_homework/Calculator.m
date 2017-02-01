@@ -21,6 +21,16 @@
     }
 }
 
+//for 구구단 거꾸로 출력
++ (void)timesTableReverse:(NSInteger)num
+{
+    for (NSInteger i = 9; i > 0; i--) {
+        NSInteger result = num * i;
+        NSLog(@"for문 거꾸로 %ld x %ld = %ld", num, i, result);
+        
+    }
+}
+
 //while 구구단
 
 + (void)timesTableWhile:(NSInteger)num

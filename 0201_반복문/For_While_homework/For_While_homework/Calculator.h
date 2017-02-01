@@ -12,6 +12,8 @@
 
 //for 구구단
 + (void)timesTable:(NSInteger)num;
+//for 구구단 감소
++ (void)timesTableReverse:(NSInteger)num;
 
 //while 구구단
 + (void)timesTableWhile:(NSInteger)num;
