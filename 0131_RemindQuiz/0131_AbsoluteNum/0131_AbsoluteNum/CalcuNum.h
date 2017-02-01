@@ -17,13 +17,24 @@
 //반올림 구하는 메서드
 + (CGFloat)raiseDecimals:(CGFloat)realNum;
 
++ (void)decimalsPoint:(CGFloat)decimalNum;
+
+//while문 구구단
++ (void)gugudan:(NSInteger)dan;
+//for문 구구단
++ (void)gugudanFor:(NSInteger)dan;
+
 //무조건 양수 결과 메서드
 + (NSInteger)calNum:(NSInteger)num1
            operator:(NSString *)op
                num2:(NSInteger)num2;
 
+
+
 //윤년구하기
 + (BOOL)leapYear:(NSInteger)year;
 
+// n! 팩토리얼
++ (void)pactorial:(NSInteger)num;
 
 @end

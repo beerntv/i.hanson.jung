@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF5145FB1E409BBE00794E4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5145FA1E409BBE00794E4E /* main.m */; };
-		EF5146041E409BF500794E4E /* CalcuNum.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5146031E409BF500794E4E /* CalcuNum.m */; };
-		EF5146071E41B7D600794E4E /* Multiple.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5146061E41B7D600794E4E /* Multiple.m */; };
+		EF5146151E41D3A900794E4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5146141E41D3A900794E4E /* main.m */; };
+		EF5146331E41D57B00794E4E /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5146321E41D57B00794E4E /* Calculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		EF5145F51E409BBE00794E4E /* CopyFiles */ = {
+		EF51460F1E41D3A900794E4E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,16 +24,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		EF5145F71E409BBE00794E4E /* 0131_AbsoluteNum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 0131_AbsoluteNum; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF5145FA1E409BBE00794E4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EF5146021E409BF500794E4E /* CalcuNum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcuNum.h; sourceTree = "<group>"; };
-		EF5146031E409BF500794E4E /* CalcuNum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcuNum.m; sourceTree = "<group>"; };
-		EF5146051E41B7D600794E4E /* Multiple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Multiple.h; path = "../../../0201_반복문/Multiple.h"; sourceTree = "<group>"; };
-		EF5146061E41B7D600794E4E /* Multiple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Multiple.m; path = "../../../0201_반복문/Multiple.m"; sourceTree = "<group>"; };
+		EF5146111E41D3A900794E4E /* For_While_homework */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = For_While_homework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5146141E41D3A900794E4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF5146311E41D57B00794E4E /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		EF5146321E41D57B00794E4E /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EF5145F41E409BBE00794E4E /* Frameworks */ = {
+		EF51460E1E41D3A900794E4E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,101 +41,98 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EF5145EE1E409BBE00794E4E = {
+		EF5146081E41D3A900794E4E = {
 			isa = PBXGroup;
 			children = (
-				EF5145F91E409BBE00794E4E /* 0131_AbsoluteNum */,
-				EF5145F81E409BBE00794E4E /* Products */,
+				EF5146131E41D3A900794E4E /* For_While_homework */,
+				EF5146121E41D3A900794E4E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EF5145F81E409BBE00794E4E /* Products */ = {
+		EF5146121E41D3A900794E4E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EF5145F71E409BBE00794E4E /* 0131_AbsoluteNum */,
+				EF5146111E41D3A900794E4E /* For_While_homework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EF5145F91E409BBE00794E4E /* 0131_AbsoluteNum */ = {
+		EF5146131E41D3A900794E4E /* For_While_homework */ = {
 			isa = PBXGroup;
 			children = (
-				EF5145FA1E409BBE00794E4E /* main.m */,
-				EF5146021E409BF500794E4E /* CalcuNum.h */,
-				EF5146031E409BF500794E4E /* CalcuNum.m */,
-				EF5146051E41B7D600794E4E /* Multiple.h */,
-				EF5146061E41B7D600794E4E /* Multiple.m */,
+				EF5146141E41D3A900794E4E /* main.m */,
+				EF5146311E41D57B00794E4E /* Calculator.h */,
+				EF5146321E41D57B00794E4E /* Calculator.m */,
 			);
-			path = 0131_AbsoluteNum;
+			path = For_While_homework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EF5145F61E409BBE00794E4E /* 0131_AbsoluteNum */ = {
+		EF5146101E41D3A900794E4E /* For_While_homework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF5145FE1E409BBE00794E4E /* Build configuration list for PBXNativeTarget "0131_AbsoluteNum" */;
+			buildConfigurationList = EF5146181E41D3A900794E4E /* Build configuration list for PBXNativeTarget "For_While_homework" */;
 			buildPhases = (
-				EF5145F31E409BBE00794E4E /* Sources */,
-				EF5145F41E409BBE00794E4E /* Frameworks */,
-				EF5145F51E409BBE00794E4E /* CopyFiles */,
+				EF51460D1E41D3A900794E4E /* Sources */,
+				EF51460E1E41D3A900794E4E /* Frameworks */,
+				EF51460F1E41D3A900794E4E /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = 0131_AbsoluteNum;
-			productName = 0131_AbsoluteNum;
-			productReference = EF5145F71E409BBE00794E4E /* 0131_AbsoluteNum */;
+			name = For_While_homework;
+			productName = For_While_homework;
+			productReference = EF5146111E41D3A900794E4E /* For_While_homework */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EF5145EF1E409BBE00794E4E /* Project object */ = {
+		EF5146091E41D3A900794E4E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Hanson Jung";
 				TargetAttributes = {
-					EF5145F61E409BBE00794E4E = {
+					EF5146101E41D3A900794E4E = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = EF5145F21E409BBE00794E4E /* Build configuration list for PBXProject "0131_AbsoluteNum" */;
+			buildConfigurationList = EF51460C1E41D3A900794E4E /* Build configuration list for PBXProject "For_While_homework" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = EF5145EE1E409BBE00794E4E;
-			productRefGroup = EF5145F81E409BBE00794E4E /* Products */;
+			mainGroup = EF5146081E41D3A900794E4E;
+			productRefGroup = EF5146121E41D3A900794E4E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EF5145F61E409BBE00794E4E /* 0131_AbsoluteNum */,
+				EF5146101E41D3A900794E4E /* For_While_homework */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EF5145F31E409BBE00794E4E /* Sources */ = {
+		EF51460D1E41D3A900794E4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF5145FB1E409BBE00794E4E /* main.m in Sources */,
-				EF5146041E409BF500794E4E /* CalcuNum.m in Sources */,
-				EF5146071E41B7D600794E4E /* Multiple.m in Sources */,
+				EF5146151E41D3A900794E4E /* main.m in Sources */,
+				EF5146331E41D57B00794E4E /* Calculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		EF5145FC1E409BBE00794E4E /* Debug */ = {
+		EF5146161E41D3A900794E4E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -185,7 +179,7 @@
 			};
 			name = Debug;
 		};
-		EF5145FD1E409BBE00794E4E /* Release */ = {
+		EF5146171E41D3A900794E4E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -225,14 +219,14 @@
 			};
 			name = Release;
 		};
-		EF5145FF1E409BBE00794E4E /* Debug */ = {
+		EF5146191E41D3A900794E4E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		EF5146001E409BBE00794E4E /* Release */ = {
+		EF51461A1E41D3A900794E4E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -242,24 +236,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EF5145F21E409BBE00794E4E /* Build configuration list for PBXProject "0131_AbsoluteNum" */ = {
+		EF51460C1E41D3A900794E4E /* Build configuration list for PBXProject "For_While_homework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF5145FC1E409BBE00794E4E /* Debug */,
-				EF5145FD1E409BBE00794E4E /* Release */,
+				EF5146161E41D3A900794E4E /* Debug */,
+				EF5146171E41D3A900794E4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF5145FE1E409BBE00794E4E /* Build configuration list for PBXNativeTarget "0131_AbsoluteNum" */ = {
+		EF5146181E41D3A900794E4E /* Build configuration list for PBXNativeTarget "For_While_homework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF5145FF1E409BBE00794E4E /* Debug */,
-				EF5146001E409BBE00794E4E /* Release */,
+				EF5146191E41D3A900794E4E /* Debug */,
+				EF51461A1E41D3A900794E4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EF5145EF1E409BBE00794E4E /* Project object */;
+	rootObject = EF5146091E41D3A900794E4E /* Project object */;
 }
