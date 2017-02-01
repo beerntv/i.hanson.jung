@@ -11,6 +11,11 @@
 @interface Warrior : NSObject
 
 @property id name;
+
+// set메서드
+//- (void)setName:(id)name;  jack.name = ??
+//- (NSString *)name; >>  변수 = jack.name
+
 @property NSUInteger health;
 @property id mana;
 @property id physicalPower;

@@ -16,6 +16,9 @@
 {
     CGFloat result = ((CGFloat)1/2) * b * h;
     return result;
-    
+  
+
 }
+
+
 @end

@@ -18,12 +18,16 @@ int main(int argc, const char * argv[]) {
         jack.health = 100;
         
         
+        
         Wizard *rose = [[Wizard alloc] init];
 //      rose.name = @"장미";
         
         
         [jack attack:@"장미"];
-        [rose attack:jack.name];
+        [rose attack:[jack name]];
+//같은 의미 [rose attack:jack.name];
+        
+        
         
         
         

@@ -10,7 +10,6 @@
 
 @implementation Square
 
-
 //-면적계산
 - (NSUInteger)area:(NSUInteger)s;
  {
