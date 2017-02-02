@@ -37,6 +37,8 @@ Apple ImageWriter II
 
 ![](https://beerntv.files.wordpress.com/2017/02/mblogthumb4-phinf-naver-net.png)
 
+### [ Apple의 해상도 변천사](https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions)
+
 이 픽셀들을 실제 디바이스 화면에 표시하면 PPI(Pixcel Per Inch)라는 개념이 나옵니다. 우리말로는 화소밀도라고 표현합니다. 1인치당 얼마나 많은 픽셀이 몰려있냐는 말인데, 결국 PPI가 높으면 이미지가 선명하게 보입니다. 
 
 ![](https://beerntv.files.wordpress.com/2017/02/device-pixel-ratio.png)

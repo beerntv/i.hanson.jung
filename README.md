@@ -21,5 +21,9 @@
 - [클래스와 객체, import와 @class, 메서드(클래스, 인스턴스), 캐스팅, 계산기만들기 ](https://github.com/hansonjung/i.hanson.jung/blob/master/0123_클래스와객체.import와class.캐스팅.계산기만들기/README.md)
 - [조건문(if, switch)](https://github.com/hansonjung/i.hanson.jung/blob/master/0124_조건문%20if/README.md)
 - [반복문 For, While](https://github.com/hansonjung/i.hanson.jung/blob/master/0201_반복문%20while.%20for/README.md)
+- 물리적 해상도와 논리적 해상도,  Apple의 해상도 변천
 
-[blog_https://beerntv.wordpress.com](https://beerntv.wordpress.com)
+
+
+</br></br></br></br>
+### ***[blog_https://beerntv.wordpress.com](https://beerntv.wordpress.com)***
