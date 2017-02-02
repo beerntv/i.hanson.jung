@@ -22,7 +22,7 @@
 - [조건문(if, switch)](https://github.com/hansonjung/i.hanson.jung/blob/master/0124_조건문%20if/README.md)
 - [반복문 For, While](https://github.com/hansonjung/i.hanson.jung/blob/master/0201_반복문%20while.%20for/README.md)
 - 물리적 해상도와 논리적 해상도,  Apple의 해상도 변천
-
+- [iOS구조.해상도.UIView](https://github.com/hansonjung/i.hanson.jung/blob/master/0202_iOS구조.해상도.UIView/README.md)
 
 
 </br></br></br></br>
