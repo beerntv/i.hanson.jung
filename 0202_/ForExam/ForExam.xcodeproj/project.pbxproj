@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF5145FB1E409BBE00794E4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5145FA1E409BBE00794E4E /* main.m */; };
-		EF5146041E409BF500794E4E /* CalcuNum.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5146031E409BF500794E4E /* CalcuNum.m */; };
+		EF7ED5181E42BDDB004098F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7ED5171E42BDDB004098F9 /* main.m */; };
+		EF7ED5201E42BE0C004098F9 /* Star.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7ED51F1E42BE0C004098F9 /* Star.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		EF5145F51E409BBE00794E4E /* CopyFiles */ = {
+		EF7ED5121E42BDDB004098F9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,14 +24,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		EF5145F71E409BBE00794E4E /* 0131_AbsoluteNum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 0131_AbsoluteNum; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF5145FA1E409BBE00794E4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EF5146021E409BF500794E4E /* CalcuNum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcuNum.h; sourceTree = "<group>"; };
-		EF5146031E409BF500794E4E /* CalcuNum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcuNum.m; sourceTree = "<group>"; };
+		EF7ED5141E42BDDB004098F9 /* ForExam */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ForExam; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7ED5171E42BDDB004098F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF7ED51E1E42BE0C004098F9 /* Star.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Star.h; sourceTree = "<group>"; };
+		EF7ED51F1E42BE0C004098F9 /* Star.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Star.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EF5145F41E409BBE00794E4E /* Frameworks */ = {
+		EF7ED5111E42BDDB004098F9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,98 +41,98 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EF5145EE1E409BBE00794E4E = {
+		EF7ED50B1E42BDDB004098F9 = {
 			isa = PBXGroup;
 			children = (
-				EF5145F91E409BBE00794E4E /* 0131_AbsoluteNum */,
-				EF5145F81E409BBE00794E4E /* Products */,
+				EF7ED5161E42BDDB004098F9 /* ForExam */,
+				EF7ED5151E42BDDB004098F9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EF5145F81E409BBE00794E4E /* Products */ = {
+		EF7ED5151E42BDDB004098F9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EF5145F71E409BBE00794E4E /* 0131_AbsoluteNum */,
+				EF7ED5141E42BDDB004098F9 /* ForExam */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EF5145F91E409BBE00794E4E /* 0131_AbsoluteNum */ = {
+		EF7ED5161E42BDDB004098F9 /* ForExam */ = {
 			isa = PBXGroup;
 			children = (
-				EF5145FA1E409BBE00794E4E /* main.m */,
-				EF5146021E409BF500794E4E /* CalcuNum.h */,
-				EF5146031E409BF500794E4E /* CalcuNum.m */,
+				EF7ED5171E42BDDB004098F9 /* main.m */,
+				EF7ED51E1E42BE0C004098F9 /* Star.h */,
+				EF7ED51F1E42BE0C004098F9 /* Star.m */,
 			);
-			path = 0131_AbsoluteNum;
+			path = ForExam;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EF5145F61E409BBE00794E4E /* 0131_AbsoluteNum */ = {
+		EF7ED5131E42BDDB004098F9 /* ForExam */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF5145FE1E409BBE00794E4E /* Build configuration list for PBXNativeTarget "0131_AbsoluteNum" */;
+			buildConfigurationList = EF7ED51B1E42BDDB004098F9 /* Build configuration list for PBXNativeTarget "ForExam" */;
 			buildPhases = (
-				EF5145F31E409BBE00794E4E /* Sources */,
-				EF5145F41E409BBE00794E4E /* Frameworks */,
-				EF5145F51E409BBE00794E4E /* CopyFiles */,
+				EF7ED5101E42BDDB004098F9 /* Sources */,
+				EF7ED5111E42BDDB004098F9 /* Frameworks */,
+				EF7ED5121E42BDDB004098F9 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = 0131_AbsoluteNum;
-			productName = 0131_AbsoluteNum;
-			productReference = EF5145F71E409BBE00794E4E /* 0131_AbsoluteNum */;
+			name = ForExam;
+			productName = ForExam;
+			productReference = EF7ED5141E42BDDB004098F9 /* ForExam */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EF5145EF1E409BBE00794E4E /* Project object */ = {
+		EF7ED50C1E42BDDB004098F9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Hanson Jung";
 				TargetAttributes = {
-					EF5145F61E409BBE00794E4E = {
+					EF7ED5131E42BDDB004098F9 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = EF5145F21E409BBE00794E4E /* Build configuration list for PBXProject "0131_AbsoluteNum" */;
+			buildConfigurationList = EF7ED50F1E42BDDB004098F9 /* Build configuration list for PBXProject "ForExam" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = EF5145EE1E409BBE00794E4E;
-			productRefGroup = EF5145F81E409BBE00794E4E /* Products */;
+			mainGroup = EF7ED50B1E42BDDB004098F9;
+			productRefGroup = EF7ED5151E42BDDB004098F9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EF5145F61E409BBE00794E4E /* 0131_AbsoluteNum */,
+				EF7ED5131E42BDDB004098F9 /* ForExam */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EF5145F31E409BBE00794E4E /* Sources */ = {
+		EF7ED5101E42BDDB004098F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF5145FB1E409BBE00794E4E /* main.m in Sources */,
-				EF5146041E409BF500794E4E /* CalcuNum.m in Sources */,
+				EF7ED5181E42BDDB004098F9 /* main.m in Sources */,
+				EF7ED5201E42BE0C004098F9 /* Star.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		EF5145FC1E409BBE00794E4E /* Debug */ = {
+		EF7ED5191E42BDDB004098F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -179,7 +179,7 @@
 			};
 			name = Debug;
 		};
-		EF5145FD1E409BBE00794E4E /* Release */ = {
+		EF7ED51A1E42BDDB004098F9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -219,14 +219,14 @@
 			};
 			name = Release;
 		};
-		EF5145FF1E409BBE00794E4E /* Debug */ = {
+		EF7ED51C1E42BDDB004098F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		EF5146001E409BBE00794E4E /* Release */ = {
+		EF7ED51D1E42BDDB004098F9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -236,25 +236,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EF5145F21E409BBE00794E4E /* Build configuration list for PBXProject "0131_AbsoluteNum" */ = {
+		EF7ED50F1E42BDDB004098F9 /* Build configuration list for PBXProject "ForExam" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF5145FC1E409BBE00794E4E /* Debug */,
-				EF5145FD1E409BBE00794E4E /* Release */,
+				EF7ED5191E42BDDB004098F9 /* Debug */,
+				EF7ED51A1E42BDDB004098F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF5145FE1E409BBE00794E4E /* Build configuration list for PBXNativeTarget "0131_AbsoluteNum" */ = {
+		EF7ED51B1E42BDDB004098F9 /* Build configuration list for PBXNativeTarget "ForExam" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF5145FF1E409BBE00794E4E /* Debug */,
-				EF5146001E409BBE00794E4E /* Release */,
+				EF7ED51C1E42BDDB004098F9 /* Debug */,
+				EF7ED51D1E42BDDB004098F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EF5145EF1E409BBE00794E4E /* Project object */;
+	rootObject = EF7ED50C1E42BDDB004098F9 /* Project object */;
 }

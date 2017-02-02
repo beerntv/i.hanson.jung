@@ -165,3 +165,4 @@ custom init 메소드 - (instancetype) initWithNum
 
 +(CGFloat)inchForCm:(CGFloat)cm;
 
+w
