@@ -307,6 +307,7 @@
 				EF7ED5431E42DB8D004098F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF9908BA1E45828500617250 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9908B91E45828500617250 /* main.m */; };
+		EF9908BD1E45828500617250 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9908BC1E45828500617250 /* AppDelegate.m */; };
+		EF9908C01E45828500617250 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9908BF1E45828500617250 /* ViewController.m */; };
+		EF9908C31E45828500617250 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF9908C11E45828500617250 /* Main.storyboard */; };
+		EF9908C51E45828500617250 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF9908C41E45828500617250 /* Assets.xcassets */; };
+		EF9908C81E45828500617250 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF9908C61E45828500617250 /* LaunchScreen.storyboard */; };
+		EF9908D01E45834200617250 /* base.png in Resources */ = {isa = PBXBuildFile; fileRef = EF9908CF1E45834200617250 /* base.png */; };
+		EF9908D31E459EC600617250 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9908D21E459EC600617250 /* Calculator.m */; };
+		EF9908D61E47689200617250 /* coke.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF9908D41E47689200617250 /* coke.jpg */; };
+		EF9908D71E47689200617250 /* evian.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF9908D51E47689200617250 /* evian.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF9908B51E45828500617250 /* VendingMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VendingMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF9908B91E45828500617250 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF9908BB1E45828500617250 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF9908BC1E45828500617250 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF9908BE1E45828500617250 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF9908BF1E45828500617250 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF9908C21E45828500617250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF9908C41E45828500617250 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF9908C71E45828500617250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF9908C91E45828500617250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF9908CF1E45834200617250 /* base.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = base.png; sourceTree = "<group>"; };
+		EF9908D11E459EC600617250 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		EF9908D21E459EC600617250 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		EF9908D41E47689200617250 /* coke.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coke.jpg; sourceTree = "<group>"; };
+		EF9908D51E47689200617250 /* evian.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = evian.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF9908B21E45828500617250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF9908AC1E45828500617250 = {
+			isa = PBXGroup;
+			children = (
+				EF9908B71E45828500617250 /* VendingMachine */,
+				EF9908B61E45828500617250 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF9908B61E45828500617250 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF9908B51E45828500617250 /* VendingMachine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF9908B71E45828500617250 /* VendingMachine */ = {
+			isa = PBXGroup;
+			children = (
+				EF9908BB1E45828500617250 /* AppDelegate.h */,
+				EF9908BC1E45828500617250 /* AppDelegate.m */,
+				EF9908BE1E45828500617250 /* ViewController.h */,
+				EF9908BF1E45828500617250 /* ViewController.m */,
+				EF9908D11E459EC600617250 /* Calculator.h */,
+				EF9908D21E459EC600617250 /* Calculator.m */,
+				EF9908C11E45828500617250 /* Main.storyboard */,
+				EF9908C41E45828500617250 /* Assets.xcassets */,
+				EF9908C61E45828500617250 /* LaunchScreen.storyboard */,
+				EF9908CF1E45834200617250 /* base.png */,
+				EF9908D41E47689200617250 /* coke.jpg */,
+				EF9908D51E47689200617250 /* evian.jpg */,
+				EF9908C91E45828500617250 /* Info.plist */,
+				EF9908B81E45828500617250 /* Supporting Files */,
+			);
+			path = VendingMachine;
+			sourceTree = "<group>";
+		};
+		EF9908B81E45828500617250 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF9908B91E45828500617250 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF9908B41E45828500617250 /* VendingMachine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF9908CC1E45828500617250 /* Build configuration list for PBXNativeTarget "VendingMachine" */;
+			buildPhases = (
+				EF9908B11E45828500617250 /* Sources */,
+				EF9908B21E45828500617250 /* Frameworks */,
+				EF9908B31E45828500617250 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VendingMachine;
+			productName = VendingMachine;
+			productReference = EF9908B51E45828500617250 /* VendingMachine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF9908AD1E45828500617250 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Hanson Jung";
+				TargetAttributes = {
+					EF9908B41E45828500617250 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EF9908B01E45828500617250 /* Build configuration list for PBXProject "VendingMachine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF9908AC1E45828500617250;
+			productRefGroup = EF9908B61E45828500617250 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF9908B41E45828500617250 /* VendingMachine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF9908B31E45828500617250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9908D01E45834200617250 /* base.png in Resources */,
+				EF9908D71E47689200617250 /* evian.jpg in Resources */,
+				EF9908D61E47689200617250 /* coke.jpg in Resources */,
+				EF9908C81E45828500617250 /* LaunchScreen.storyboard in Resources */,
+				EF9908C51E45828500617250 /* Assets.xcassets in Resources */,
+				EF9908C31E45828500617250 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF9908B11E45828500617250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9908C01E45828500617250 /* ViewController.m in Sources */,
+				EF9908D31E459EC600617250 /* Calculator.m in Sources */,
+				EF9908BD1E45828500617250 /* AppDelegate.m in Sources */,
+				EF9908BA1E45828500617250 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF9908C11E45828500617250 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF9908C21E45828500617250 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF9908C61E45828500617250 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF9908C71E45828500617250 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF9908CA1E45828500617250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF9908CB1E45828500617250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF9908CD1E45828500617250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VendingMachine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CNT.VendingMachine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF9908CE1E45828500617250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VendingMachine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CNT.VendingMachine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF9908B01E45828500617250 /* Build configuration list for PBXProject "VendingMachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF9908CA1E45828500617250 /* Debug */,
+				EF9908CB1E45828500617250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF9908CC1E45828500617250 /* Build configuration list for PBXNativeTarget "VendingMachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF9908CD1E45828500617250 /* Debug */,
+				EF9908CE1E45828500617250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF9908AD1E45828500617250 /* Project object */;
+}

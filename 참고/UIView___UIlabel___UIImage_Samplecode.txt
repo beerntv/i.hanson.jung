@@ -1,0 +1,45 @@
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view, typically from a nib.
+    
+
+    CGFloat margin = 10;
+    CGFloat offsetX = margin;
+    CGFloat offsetY = margin;
+    
+    //기본뷰
+    UIView *baseView = [[UIView alloc] initWithFrame:CGRectMake(20, 50, self.view.frame.size.width- 40, 90)];
+    baseView.layer.borderColor = [UIColor grayColor].CGColor;
+    baseView.layer.borderWidth = 1;
+    baseView.backgroundColor = [UIColor whiteColor];
+    [self.view addSubview:baseView];
+    
+    //이미지 영역
+    UIImageView *profileImg = [[UIImageView alloc] initWithFrame:CGRectMake(offsetX, offsetX, 70, 70)];
+//    profileImg.backgroundColor = [UIColor grayColor];
+    //image
+    profileImg.image = [UIImage imageNamed:@"test_img.jpg"];
+    profileImg.contentMode = UIViewContentModeScaleAspectFit;
+    [baseView addSubview:profileImg];
+    offsetX += profileImg.frame.size.width + margin;
+    
+    //타이틀 영역
+    UILabel *titleView = [[UILabel alloc] initWithFrame:CGRectMake(offsetX, offsetY, baseView.frame.size.width - offsetX - margin, 40)];
+//    titleView.backgroundColor = [UIColor grayColor];
+    titleView.text = @"즐거운 수업시간";
+    titleView.font = [UIFont systemFontOfSize:30];
+    titleView.textColor = [UIColor colorWithRed:150.0/255.0 green:150/255.0 blue:150/255.0 alpha:1];
+    [baseView addSubview:titleView];
+    offsetY += titleView.frame.size.height + margin;
+    
+    
+    //sub타이틀 영역
+    UILabel *subTitleView = [[UILabel alloc] initWithFrame:CGRectMake(offsetX, offsetY, titleView.frame.size.width, 20)];
+//    subTitleView.backgroundColor = [UIColor grayColor];
+    subTitleView.text = @"졸면 안되요~~~뿌잉뿌잉";
+    subTitleView.font = [UIFont systemFontOfSize:10];
+    subTitleView.textColor = [UIColor grayColor];
+    [baseView addSubview:subTitleView];
+    
+
+}
