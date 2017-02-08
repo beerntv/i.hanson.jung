@@ -11,16 +11,21 @@
 
 int main(int argc, const char * argv[])
 {
-    Car *car = [[Car alloc] init];
-    car.brandName = @"hyundai";
+//    Car *car = [[Car alloc] init];
+//    car.brandName = @"hyundai";
+//    
+//    
+//    NSLog(@"%@",car.brandName);
+//    
+//    Car *sportCar = [[Car alloc] init];
+//    sportCar.brandName = @"bmw";
+//    NSLog(@"%@",sportCar.brandName);
     
     
-    NSLog(@"%@",car.brandName);
     
-    Car *sportCar = [[Car alloc] init];
-    sportCar.brandName = @"bmw";
-    NSLog(@"%@",sportCar.brandName);
-    
+    Car *p1 = [[Car alloc] init];
+    p1.Car = @"jung";
+    Car *p2 = p1;
     
     return 0;
     
