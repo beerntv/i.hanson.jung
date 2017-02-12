@@ -23,7 +23,12 @@
 - [반복문 For, While](https://github.com/hansonjung/i.hanson.jung/blob/master/0124_조건문%20if/0124_조건문%20if.md)
 - [계산기 로직](https://github.com/hansonjung/i.hanson.jung/blob/master/0125_계산기로직/0125_계산기로직.md)
 - [물리적 해상도와 논리적 해상도,  Apple의 해상도 변천](https://github.com/hansonjung/i.hanson.jung/blob/master/0202_iOS구조.해상도.UIView/iphone_해상도_point_pixel.md)
-- [iOS구조.해상도.UIView](https://github.com/hansonjung/i.hanson.jung/blob/master/0202_iOS구조.해상도.UIView/README.md)
+- [iOS구조.해상도.UIView](https://github.com/hansonjung/i.hanson.jung/blob/master/0202_iOS구조.해상도.UIView/0202_iOS구조.해상도.UIView.md)
+
+
+### 4WEEK
+
+- [Delegate](https://github.com/hansonjung/i.hanson.jung/blob/master/0206_delegate.protocol/0206_delegate.md)
 
 
 </br></br></br></br>
