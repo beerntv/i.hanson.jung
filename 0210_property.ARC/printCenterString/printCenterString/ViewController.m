@@ -21,7 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-  retain
+    
 //    // 생성
 //    UITextField *tf1 = [[UITextField alloc] initWithFrame:CGRectMake(100, 100, 200, 30)];
 //    tf1.borderStyle = UITextBorderStyleLine;
@@ -35,7 +35,7 @@
     NSInteger num = 1;
     NSString *str = [[NSString alloc] init];
     
-    NSLog(<#NSString * _Nonnull format, ...#>)
+
     
     NSArray *korea = [[NSMutableArray alloc] initWithObjects:@"k", @"o", @"r", @"e", @"a", nil];
     

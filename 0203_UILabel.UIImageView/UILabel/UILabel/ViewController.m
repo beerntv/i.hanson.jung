@@ -35,6 +35,9 @@
     profile.contentMode = UIViewContentModeScaleToFill;
     [baseView addSubview:profile];
                        
+    //라벨
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(100, 100, 200, 30)];
+
     
     //버튼
     offsetY = baseView.frame.size.height + margin + 20;
