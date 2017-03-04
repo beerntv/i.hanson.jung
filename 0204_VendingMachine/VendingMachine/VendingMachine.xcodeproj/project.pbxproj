@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF62DB0A1E53204500FB07D2 /* iPhone 7.png in Resources */ = {isa = PBXBuildFile; fileRef = EF62DB091E53204500FB07D2 /* iPhone 7.png */; };
 		EF9908BA1E45828500617250 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9908B91E45828500617250 /* main.m */; };
 		EF9908BD1E45828500617250 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9908BC1E45828500617250 /* AppDelegate.m */; };
 		EF9908C01E45828500617250 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9908BF1E45828500617250 /* ViewController.m */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF62DB091E53204500FB07D2 /* iPhone 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 7.png"; sourceTree = "<group>"; };
 		EF9908B51E45828500617250 /* VendingMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VendingMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF9908B91E45828500617250 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EF9908BB1E45828500617250 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				EF9908C11E45828500617250 /* Main.storyboard */,
 				EF9908C41E45828500617250 /* Assets.xcassets */,
 				EF9908C61E45828500617250 /* LaunchScreen.storyboard */,
+				EF62DB091E53204500FB07D2 /* iPhone 7.png */,
 				EF9908CF1E45834200617250 /* base.png */,
 				EF9908D41E47689200617250 /* coke.jpg */,
 				EF9908D51E47689200617250 /* evian.jpg */,
@@ -156,6 +159,7 @@
 				EF9908D61E47689200617250 /* coke.jpg in Resources */,
 				EF9908C81E45828500617250 /* LaunchScreen.storyboard in Resources */,
 				EF9908C51E45828500617250 /* Assets.xcassets in Resources */,
+				EF62DB0A1E53204500FB07D2 /* iPhone 7.png in Resources */,
 				EF9908C31E45828500617250 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,6 +329,7 @@
 				EF9908CE1E45828500617250 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

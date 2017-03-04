@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF079D6F1E5AD3400036CA72 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF079D6D1E5AD3400036CA72 /* SignUpViewController.m */; };
+		EF079D701E5AD3400036CA72 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF079D6E1E5AD3400036CA72 /* SignUpViewController.xib */; };
 		EF62D9AA1E498DF600FB07D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF62D9A91E498DF600FB07D2 /* main.m */; };
 		EF62D9AD1E498DF600FB07D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF62D9AC1E498DF600FB07D2 /* AppDelegate.m */; };
 		EF62D9B01E498DF600FB07D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF62D9AF1E498DF600FB07D2 /* ViewController.m */; };
@@ -16,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF079D6C1E5AD3400036CA72 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		EF079D6D1E5AD3400036CA72 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		EF079D6E1E5AD3400036CA72 /* SignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
 		EF62D9A51E498DF600FB07D2 /* 0207_LogIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 0207_LogIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF62D9A91E498DF600FB07D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EF62D9AB1E498DF600FB07D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,10 +67,13 @@
 				EF62D9AC1E498DF600FB07D2 /* AppDelegate.m */,
 				EF62D9AE1E498DF600FB07D2 /* ViewController.h */,
 				EF62D9AF1E498DF600FB07D2 /* ViewController.m */,
+				EF079D6C1E5AD3400036CA72 /* SignUpViewController.h */,
+				EF079D6D1E5AD3400036CA72 /* SignUpViewController.m */,
+				EF62D9B91E498DF600FB07D2 /* Info.plist */,
+				EF079D6E1E5AD3400036CA72 /* SignUpViewController.xib */,
 				EF62D9B11E498DF600FB07D2 /* Main.storyboard */,
 				EF62D9B41E498DF600FB07D2 /* Assets.xcassets */,
 				EF62D9B61E498DF600FB07D2 /* LaunchScreen.storyboard */,
-				EF62D9B91E498DF600FB07D2 /* Info.plist */,
 				EF62D9A81E498DF600FB07D2 /* Supporting Files */,
 			);
 			path = 0207_LogIn;
@@ -139,6 +147,7 @@
 			files = (
 				EF62D9B81E498DF600FB07D2 /* LaunchScreen.storyboard in Resources */,
 				EF62D9B51E498DF600FB07D2 /* Assets.xcassets in Resources */,
+				EF079D701E5AD3400036CA72 /* SignUpViewController.xib in Resources */,
 				EF62D9B31E498DF600FB07D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,6 +161,7 @@
 			files = (
 				EF62D9B01E498DF600FB07D2 /* ViewController.m in Sources */,
 				EF62D9AD1E498DF600FB07D2 /* AppDelegate.m in Sources */,
+				EF079D6F1E5AD3400036CA72 /* SignUpViewController.m in Sources */,
 				EF62D9AA1E498DF600FB07D2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +317,7 @@
 				EF62D9BE1E498DF600FB07D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

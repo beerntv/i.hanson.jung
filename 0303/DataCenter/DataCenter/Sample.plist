@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>yunseo.kim</string>
+		<key>phone number</key>
+		<string>1097898535</string>
+	</dict>
+	<dict>
+		<key>yunseo.kim</key>
+		<string>1097898535</string>
+		<key>jaehan.park</key>
+		<string>1095930603</string>
+		<key>jongchan.park</key>
+		<string>1033806381</string>
+		<key>chanwoong.park</key>
+		<string>1091872971</string>
+		<key>sangmin.yeo</key>
+		<string>1029838830</string>
+		<key>seungryul.lee</key>
+		<string>1048239856</string>
+		<key>baekjin.cho</key>
+		<string>1029295715</string>
+		<key>bongki.cho</key>
+		<string>1063922850</string>
+		<key>junyoung.jee</key>
+		<string>1062113163</string>
+		<key>minjung.chun</key>
+		<string>1095113682</string>
+		<key>wonsuck.choi</key>
+		<string>1055089348</string>
+		<key>jeheon.choi</key>
+		<string>1076771061</string>
+		<key>youngsoo.han</key>
+		<string>1032212126</string>
+		<key>wonchul.heo</key>
+		<string>1095922837</string>
+		<key>jungki.hong</key>
+		<string>1088509703</string>
+	</dict>
+</array>
+</plist>

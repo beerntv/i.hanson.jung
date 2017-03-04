@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF24577B1E5BD9CC00433A04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF24577A1E5BD9CC00433A04 /* main.m */; };
+		EF24577E1E5BD9CC00433A04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF24577D1E5BD9CC00433A04 /* AppDelegate.m */; };
+		EF2457811E5BD9CC00433A04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2457801E5BD9CC00433A04 /* ViewController.m */; };
+		EF2457841E5BD9CC00433A04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2457821E5BD9CC00433A04 /* Main.storyboard */; };
+		EF2457861E5BD9CC00433A04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF2457851E5BD9CC00433A04 /* Assets.xcassets */; };
+		EF2457891E5BD9CC00433A04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2457871E5BD9CC00433A04 /* LaunchScreen.storyboard */; };
+		EF2457931E5BE54800433A04 /* Sub.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2457921E5BE54800433A04 /* Sub.storyboard */; };
+		EFC3027A1E5C13990030128A /* backIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = EFC302791E5C13990030128A /* backIcon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF2457761E5BD9CC00433A04 /* Navi1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navi1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF24577A1E5BD9CC00433A04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF24577C1E5BD9CC00433A04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF24577D1E5BD9CC00433A04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF24577F1E5BD9CC00433A04 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF2457801E5BD9CC00433A04 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF2457831E5BD9CC00433A04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF2457851E5BD9CC00433A04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF2457881E5BD9CC00433A04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF24578A1E5BD9CC00433A04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF2457921E5BE54800433A04 /* Sub.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Sub.storyboard; sourceTree = "<group>"; };
+		EFC302791E5C13990030128A /* backIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backIcon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF2457731E5BD9CC00433A04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF24576D1E5BD9CC00433A04 = {
+			isa = PBXGroup;
+			children = (
+				EF2457781E5BD9CC00433A04 /* Navi1 */,
+				EF2457771E5BD9CC00433A04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF2457771E5BD9CC00433A04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF2457761E5BD9CC00433A04 /* Navi1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF2457781E5BD9CC00433A04 /* Navi1 */ = {
+			isa = PBXGroup;
+			children = (
+				EF24577C1E5BD9CC00433A04 /* AppDelegate.h */,
+				EF24577D1E5BD9CC00433A04 /* AppDelegate.m */,
+				EF24577F1E5BD9CC00433A04 /* ViewController.h */,
+				EF2457801E5BD9CC00433A04 /* ViewController.m */,
+				EF2457821E5BD9CC00433A04 /* Main.storyboard */,
+				EF2457921E5BE54800433A04 /* Sub.storyboard */,
+				EF2457851E5BD9CC00433A04 /* Assets.xcassets */,
+				EF2457871E5BD9CC00433A04 /* LaunchScreen.storyboard */,
+				EF24578A1E5BD9CC00433A04 /* Info.plist */,
+				EFC302791E5C13990030128A /* backIcon.png */,
+				EF2457791E5BD9CC00433A04 /* Supporting Files */,
+			);
+			path = Navi1;
+			sourceTree = "<group>";
+		};
+		EF2457791E5BD9CC00433A04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF24577A1E5BD9CC00433A04 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF2457751E5BD9CC00433A04 /* Navi1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF24578D1E5BD9CC00433A04 /* Build configuration list for PBXNativeTarget "Navi1" */;
+			buildPhases = (
+				EF2457721E5BD9CC00433A04 /* Sources */,
+				EF2457731E5BD9CC00433A04 /* Frameworks */,
+				EF2457741E5BD9CC00433A04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Navi1;
+			productName = Navi1;
+			productReference = EF2457761E5BD9CC00433A04 /* Navi1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF24576E1E5BD9CC00433A04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Hanson Jung";
+				TargetAttributes = {
+					EF2457751E5BD9CC00433A04 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EF2457711E5BD9CC00433A04 /* Build configuration list for PBXProject "Navi1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF24576D1E5BD9CC00433A04;
+			productRefGroup = EF2457771E5BD9CC00433A04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF2457751E5BD9CC00433A04 /* Navi1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF2457741E5BD9CC00433A04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2457891E5BD9CC00433A04 /* LaunchScreen.storyboard in Resources */,
+				EF2457861E5BD9CC00433A04 /* Assets.xcassets in Resources */,
+				EF2457841E5BD9CC00433A04 /* Main.storyboard in Resources */,
+				EFC3027A1E5C13990030128A /* backIcon.png in Resources */,
+				EF2457931E5BE54800433A04 /* Sub.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF2457721E5BD9CC00433A04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2457811E5BD9CC00433A04 /* ViewController.m in Sources */,
+				EF24577E1E5BD9CC00433A04 /* AppDelegate.m in Sources */,
+				EF24577B1E5BD9CC00433A04 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF2457821E5BD9CC00433A04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF2457831E5BD9CC00433A04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF2457871E5BD9CC00433A04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF2457881E5BD9CC00433A04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF24578B1E5BD9CC00433A04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF24578C1E5BD9CC00433A04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF24578E1E5BD9CC00433A04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Navi1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CNT.Navi1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF24578F1E5BD9CC00433A04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Navi1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CNT.Navi1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF2457711E5BD9CC00433A04 /* Build configuration list for PBXProject "Navi1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF24578B1E5BD9CC00433A04 /* Debug */,
+				EF24578C1E5BD9CC00433A04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF24578D1E5BD9CC00433A04 /* Build configuration list for PBXNativeTarget "Navi1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF24578E1E5BD9CC00433A04 /* Debug */,
+				EF24578F1E5BD9CC00433A04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF24576E1E5BD9CC00433A04 /* Project object */;
+}

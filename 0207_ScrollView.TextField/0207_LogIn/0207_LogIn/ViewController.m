@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SignUpViewController.h"
 
 @interface ViewController ()
 <UIScrollViewDelegate, UITextFieldDelegate>
@@ -31,7 +32,7 @@
     
     
     //레이블
-    UILabel *label1 = [[UILabel alloc] initWithFrame:CGRectMake(100, 50, 200, 30)];
+    UILabel *label1 = [[UILabel alloc] initWithFrame:CGRectMake(100, 150, 200, 30)];
     [label1 setText:@"Log In Page"];
     [label1 setFont:[UIFont boldSystemFontOfSize:20]];
     [base addSubview:label1];
@@ -51,7 +52,7 @@
     
     
     //텍스트필드 1
-    self.tf1 = [[UITextField alloc] initWithFrame:CGRectMake(100, 100, 200, 30)];
+    self.tf1 = [[UITextField alloc] initWithFrame:CGRectMake(100, 200, 200, 30)];
     self.tf1.font = [UIFont systemFontOfSize:13];
     self.tf1.backgroundColor = [UIColor whiteColor];
     self.tf1.textColor = [UIColor lightGrayColor];
@@ -65,13 +66,14 @@
     
     
     //텍스트필드 2
-    self.tf2 = [[UITextField alloc] initWithFrame:CGRectMake(100, 150, 200, 30)];
+    self.tf2 = [[UITextField alloc] initWithFrame:CGRectMake(100, 250, 200, 30)];
     self.tf2.font = [UIFont systemFontOfSize:13];
     self.tf2.textColor = [UIColor lightGrayColor];
     self.tf2.backgroundColor = [UIColor whiteColor];
     self.tf2.textAlignment = NSTextAlignmentLeft;
     //테두리변경
-    self.tf2.borderStyle = UITextBorderStyleLine;
+    //self.tf2.borderStyle = UITextBorderStyleLine;
+    self.tf2.borderStyle = UITextBorderStyleRoundedRect;
     self.tf2.placeholder = @"  PASSWORD";
     self.tf2.delegate = self;
     [self.scrollView addSubview:self.tf2];
@@ -80,14 +82,43 @@
     
     
     //레이블 "로그인" "회원가입"
-    UILabel *login = [[UILabel alloc] initWithFrame:CGRectMake(100, 200, 200, 30)];
-    [login setText:@"로그인      회원가입"];
+    UILabel *login = [[UILabel alloc] initWithFrame:CGRectMake(50, 300, 200, 30)];
+    [login setText:@"로그인"];
     [login setFont:[UIFont boldSystemFontOfSize:12]];
     [self.scrollView addSubview:login];
     [login setTextAlignment:NSTextAlignmentCenter];
     
+    //회원가입 버튼 다음페이지
+    UIButton *signupBtn = [[UIButton alloc] initWithFrame:CGRectMake(150, 300, 200, 30)];
+    //addTarget
+    [signupBtn addTarget:self action:@selector(onSelectedBtn:) forControlEvents:UIControlEventTouchUpInside];
+    
+    //setTitle
+    [signupBtn setTitle:@"회원가입" forState:UIControlStateNormal];
+
+    [signupBtn setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+    [signupBtn setTitleColor:[UIColor lightGrayColor] forState:UIControlStateHighlighted];
+    
+    //addSubview
+    [self.scrollView addSubview:signupBtn];
+    
+    
+    
+    
 }
 
+- (void)onSelectedBtn:(UIButton *)sender {
+    
+    
+    //뷰컨트롤러 객체 만들기
+    SignUpViewController *SigupVC = [[SignUpViewController alloc] initWithNibName:@"SignUpViewController" bundle:nil];
+     //페이지전환
+    [self.navigationController pushViewController:SigupVC animated:YES];
+   
+    
+}
+
+     
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
 {
     
