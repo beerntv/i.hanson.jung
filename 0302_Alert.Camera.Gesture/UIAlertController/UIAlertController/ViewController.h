@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-UIAlertController
+
 @interface ViewController : UIViewController
 
 
