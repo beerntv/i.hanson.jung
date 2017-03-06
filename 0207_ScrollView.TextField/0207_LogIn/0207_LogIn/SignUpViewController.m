@@ -25,6 +25,17 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
+    self.navigationItem.title = @"my vc";
+
+    
+    UIButton *back = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 35, 35)];
+    [back setBackgroundImage:[UIImage imageNamed:@"backIcon"] forState:UIControlStateNormal];
+    [back addTarget:self action:@selector(backBtnClick:) forControlEvents:UIControlEventTouchUpInside];
+    
+    UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithCustomView:back];
+    self.navigationItem.leftBarButtonItem = item;
+    
+    
     // 베이스 뷰
     // 레이블
     // 스크롤
@@ -60,7 +71,11 @@
     
     
     //텍스트필드 1
-    self.tf1 = [[UITextField alloc] initWithFrame:CGRectMake(100, 100, 200, 30)];
+    CGFloat offsetX;
+    offsetX = (self.scrollView.frame.size.width - self.tf1.frame.size.width)/2;
+    self.tf1 = [[UITextField alloc] initWithFrame:CGRectMake(offsetX, 100, 200, 30)];
+
+    
     self.tf1.font = [UIFont systemFontOfSize:13];
     self.tf1.backgroundColor = [UIColor whiteColor];
     self.tf1.textColor = [UIColor lightGrayColor];
@@ -121,6 +136,13 @@
 //    [nextButton setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
 //    [nextButton setTitleColor:[UIColor lightGrayColor] forState:UIControlStateHighlighted];
 //    [self.view addSubview:nextButton];
+    
+}
+
+- (void)backBtnClick:(UIButton *)sender {
+    
+    NSLog(@"back log");
+    [self.navigationController popViewControllerAnimated:YES];
     
 }
 

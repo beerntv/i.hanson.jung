@@ -1,13 +1,12 @@
 //
 //  AppDelegate.m
-//  0207_LogIn
+//  setting_quip
 //
-//  Created by Hanson Jung on 2017. 2. 7..
-//  Copyright © 2017년 Hanson Jung. All rights reserved.
+//  Created by Hanson Jung on 2017. 2. 25..
+//  Copyright © 2017년 waaoo. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -18,45 +17,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-   /*
-    // 1.윈도우만들기
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    
-    // 2.RootViewController 만들기
-    UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    ViewController *rootVC = [mainStoryboard instantiateViewControllerWithIdentifier:@"ViewController"];
-    
-    // 3.네비게이션 컨트롤러 만들기
-     UINavigationController *naviVC = [[UINavigationController alloc] initWithRootViewController:rootVC];
-    // 4.윈도우에 루트뷰(네비게이션뷰) 지정
-    //self.window.rootViewController = naviVC;
-    
-    
-    
-    //Tab bar만들기
-    UITabBarController *tabbar = [[UITabBarController alloc] init];
-    //1.윈도우 만들기
-    //2. tabbarviewController만들기
-    ViewController *vc1 = [[ViewController alloc] init];
-    ViewController *vc2 = [[ViewController alloc] init];
-    
-    
-    tabbar.viewControllers = @[naviVC, vc2];
-    
-    //3.탭바 아이콘 설정
-    UITabBarItem *item1 = [[UITabBarItem alloc] initWithTitle:nil image:[UIImage imageNamed:@"h1"] selectedImage:[UIImage imageNamed:@"h2.png"]];
-    
-    UITabBarItem *item2 = [[UITabBarItem alloc] initWithTitle:@"TAB BAR" image:[UIImage imageNamed:@"h1"] selectedImage:[UIImage imageNamed:@"h2.png"]];
-    
-    naviVC.tabBarItem = item1;
-    vc2.tabBarItem = item2;
-    
-    //4.윈도우에 RootViewController 지정
-    self.window.rootViewController = tabbar;
-    
-    [self.window makeKeyAndVisible]; // 꼭써주기!!
-    */
-    
     return YES;
 }
 

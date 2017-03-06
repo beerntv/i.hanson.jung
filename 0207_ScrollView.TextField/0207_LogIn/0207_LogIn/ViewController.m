@@ -25,6 +25,24 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 //1334 x 750
+    
+    //네비게이션 바버튼
+    self.navigationItem.title = @"my vc";
+    //[self.navigationController.navigationBar setBarTintColor:[UIColor blueColor]];
+    
+//    UIButton *back = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 35, 35)];
+//    [back setBackgroundImage:[UIImage imageNamed:@"backIcon"] forState:UIControlStateNormal];
+//    [back addTarget:self action:@selector(backBtnClick:) forControlEvents:UIControlEventTouchUpInside];
+//    
+//    UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithCustomView:back];
+//    self.navigationItem.leftBarButtonItem = item;
+
+    
+    
+    
+    
+    
+    
     //베이스
     UIView *base = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
     base.backgroundColor = [UIColor colorWithRed:40/255.0f green:190/255.0f blue:230/255.0f alpha:1.0];
@@ -103,9 +121,42 @@
     [self.scrollView addSubview:signupBtn];
     
     
+    //AlertController 만들기
+    // AlertController 생성
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"경고"
+                                                                             message:@"잘못입력했습니다" preferredStyle:UITableViewCellStyleValue1];
+    
+    //AlertController 액션버튼객체 생성
+    UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"OK"
+                                                       style:UITableViewCellStyleDefault
+                                                     handler:^(UIAlertAction * _Nonnull action) {
+        NSLog(@"ok버튼이 클릭되었습니다");
+        
+                                                     }];
+    
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"Cancel"
+                                                           style:UIAlertActionStyleCancel
+                                                                  handler:nil];
+    
+    //UIGestureRecognizer
+    
     
     
 }
+
+
+//- (void)backBtnClick:(UIButton *)sender {
+//    
+//    NSLog(@"back log");
+//    [self.navigationController popViewControllerAnimated:YES];
+//    
+//}
+
+
+    
+    
+
+
 
 - (void)onSelectedBtn:(UIButton *)sender {
     
