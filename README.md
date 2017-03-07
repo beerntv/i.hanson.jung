@@ -2,8 +2,8 @@
 
 ### 1WEEK
 
-- [Git(GUI)](https://github.com/hansonjung/i.hanson.jung/blob/master/0109_git/0109_Git.VCS.md)
-- Git, Markdown 문법
+- [Git(GUI)](https://github.com/hansonjung/i.hanson.jung/blob/master/StudyIOS.MD/0109_Git.VCS.md)
+- [램.한글인코딩](https://github.com/hansonjung/i.hanson.jung/blob/master/StudyIOS.MD/0110램.한글인코딩.md)
 - [컴퓨터/프로그램/프로그래밍의 개념, 운영체제, 자료구조, 알고리즘](https://github.com/hansonjung/i.hanson.jung/blob/master/0111_운영체제.자료구조.알고리즘/0111_운영체제.자료구조.알고리즘.md)
 - [데이터베이스, 네트워크, 암호화](https://github.com/hansonjung/i.hanson.jung/blob/master/0112_데이터베이스.네트워크.암호화/0112_데이터베이스.네트워크.암호화.md)
 - [소프트웨어공학.언어.프로그래머.](https://github.com/hansonjung/i.hanson.jung/blob/master/0113_소프트웨어공학.언어.프로그래머/0113_소프트웨어공학.언어.프로그래머.md)
