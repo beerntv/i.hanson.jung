@@ -126,8 +126,8 @@
 		EFDD5D891E6C6AF700ECE555 /* ContactList */ = {
 			isa = PBXGroup;
 			children = (
-				EFDD5DA71E6C6BF800ECE555 /* Resource */,
-				EF58BE251E6D2DD300B60BE2 /* ContactList.plist */,
+				EFF1DAC41E6ED55500CAB52D /* DataCenter */,
+				EF5ABD591E6E8E80000AED60 /* MapView */,
 				EFDD5D8D1E6C6AF700ECE555 /* AppDelegate.h */,
 				EFDD5D8E1E6C6AF700ECE555 /* AppDelegate.m */,
 				EFDD5DA11E6C6BB600ECE555 /* MasterViewController.h */,
@@ -136,12 +136,8 @@
 				EFFDAAFE1E6D972800102D14 /* AddNameViewController.m */,
 				EFDD5DC41E6C6DEB00ECE555 /* CustomCell.h */,
 				EFDD5DC51E6C6DEB00ECE555 /* CustomCell.m */,
-				EF58BE271E6D2FF700B60BE2 /* DataCenter.h */,
-				EF58BE281E6D2FF700B60BE2 /* DataCenter.m */,
 				EFDD5DCA1E6C7AD800ECE555 /* Storyboard.storyboard */,
-				EFDD5D961E6C6AF700ECE555 /* Assets.xcassets */,
 				EFDD5D981E6C6AF700ECE555 /* LaunchScreen.storyboard */,
-				EFDD5D9B1E6C6AF700ECE555 /* Info.plist */,
 				EFDD5D8A1E6C6AF700ECE555 /* Supporting Files */,
 			);
 			path = ContactList;
@@ -158,7 +154,6 @@
 		EFDD5DA71E6C6BF800ECE555 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				EF5ABD591E6E8E80000AED60 /* MapView */,
 				EFDD5DA81E6C6C2100ECE555 /* apple.jpeg */,
 				EFDD5DA91E6C6C2100ECE555 /* background.jpg */,
 				EFDD5DAA1E6C6C2100ECE555 /* blueberry.jpg */,
@@ -175,6 +170,19 @@
 				EFDD5DB51E6C6C2100ECE555 /* watermelon.png */,
 			);
 			name = Resource;
+			sourceTree = "<group>";
+		};
+		EFF1DAC41E6ED55500CAB52D /* DataCenter */ = {
+			isa = PBXGroup;
+			children = (
+				EFDD5D961E6C6AF700ECE555 /* Assets.xcassets */,
+				EF58BE271E6D2FF700B60BE2 /* DataCenter.h */,
+				EF58BE281E6D2FF700B60BE2 /* DataCenter.m */,
+				EF58BE251E6D2DD300B60BE2 /* ContactList.plist */,
+				EFDD5D9B1E6C6AF700ECE555 /* Info.plist */,
+				EFDD5DA71E6C6BF800ECE555 /* Resource */,
+			);
+			name = DataCenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

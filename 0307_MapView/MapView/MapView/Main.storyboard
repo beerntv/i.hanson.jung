@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="mSM-7u-lXQ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Map View Controller-->
+        <scene sceneID="Ag7-FT-DQA">
+            <objects>
+                <viewController id="mSM-7u-lXQ" customClass="MapViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="B1k-rv-dZC"/>
+                        <viewControllerLayoutGuide type="bottom" id="RyC-pb-PdR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LdB-wd-pnd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="DAG-Iv-eLh">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="DAG-Iv-eLh" firstAttribute="top" secondItem="B1k-rv-dZC" secondAttribute="bottom" id="DzC-Dl-IeL"/>
+                            <constraint firstItem="DAG-Iv-eLh" firstAttribute="leading" secondItem="LdB-wd-pnd" secondAttribute="leading" id="JWk-JU-1CQ"/>
+                            <constraint firstAttribute="trailing" secondItem="DAG-Iv-eLh" secondAttribute="trailing" id="lzS-0o-9Ow"/>
+                            <constraint firstItem="RyC-pb-PdR" firstAttribute="top" secondItem="DAG-Iv-eLh" secondAttribute="bottom" id="z6Z-vM-3Ne"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="DAG-Iv-eLh" id="W8U-TZ-qlp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M48-io-hWw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="129" y="137"/>
+        </scene>
+    </scenes>
+</document>
