@@ -8,6 +8,7 @@
 
 #import "MasterViewController.h"
 #import "CustomCell.h"
+
 //#import "DetailTableViewController.h"
 
 @interface MasterViewController ()
@@ -19,8 +20,10 @@
 
 @implementation MasterViewController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+  
     
     NSDictionary *item1=[[NSDictionary alloc] initWithObjectsAndKeys:@"jung hanosn",@"name",@"010-3282-0000",@"phone Number",@"apple.jpeg",@"image",nil];
     NSDictionary *item2=[[NSDictionary alloc] initWithObjectsAndKeys:@"choi daepyo",@"name",@"010-8989-0000",@"phone Number",@"blueberry.jpg",@"image",nil];
@@ -62,15 +65,15 @@
     cell.imgView.image = [UIImage imageNamed:[dicTemp objectForKey:@"image"]];
     
     
-    self.num = 3;
-   
-    self.num2 = self.num;
-    
-    NSLog(@"%ld", self.num);
-    NSLog(@"%ld", [self num]);
-    
-    
-    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+//    self.num = 3;
+//   
+//    self.num2 = self.num;
+//    
+//    NSLog(@"%ld", self.num);
+//    NSLog(@"%ld", [self num]);
+//    
+//    
+//    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     
     return cell;
 }

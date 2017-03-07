@@ -12,7 +12,7 @@
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-    self.imgView.layer.cornerRadius = 25.0;
+    self.imgView.layer.cornerRadius = 30.0;
     self.imgView.layer.masksToBounds = YES;
 }
 
@@ -21,5 +21,6 @@
 
     // Configure the view for the selected state
 }
+
 
 @end

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF58BE261E6D2DD300B60BE2 /* ContactList.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF58BE251E6D2DD300B60BE2 /* ContactList.plist */; };
+		EF58BE291E6D2FF700B60BE2 /* DataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = EF58BE281E6D2FF700B60BE2 /* DataCenter.m */; };
+		EF5ABD551E6E8153000AED60 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5ABD541E6E8153000AED60 /* MapKit.framework */; };
+		EF5ABD581E6E8A8C000AED60 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5ABD571E6E8A8C000AED60 /* MapViewController.m */; };
 		EFDD5D8C1E6C6AF700ECE555 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDD5D8B1E6C6AF700ECE555 /* main.m */; };
 		EFDD5D8F1E6C6AF700ECE555 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDD5D8E1E6C6AF700ECE555 /* AppDelegate.m */; };
 		EFDD5D971E6C6AF700ECE555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDD5D961E6C6AF700ECE555 /* Assets.xcassets */; };
@@ -28,9 +32,16 @@
 		EFDD5DC31E6C6C2100ECE555 /* watermelon.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDD5DB51E6C6C2100ECE555 /* watermelon.png */; };
 		EFDD5DC61E6C6DEB00ECE555 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDD5DC51E6C6DEB00ECE555 /* CustomCell.m */; };
 		EFDD5DCB1E6C7AD800ECE555 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDD5DCA1E6C7AD800ECE555 /* Storyboard.storyboard */; };
+		EFFDAAFF1E6D972800102D14 /* AddNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFDAAFE1E6D972800102D14 /* AddNameViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF58BE251E6D2DD300B60BE2 /* ContactList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ContactList.plist; sourceTree = "<group>"; };
+		EF58BE271E6D2FF700B60BE2 /* DataCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataCenter.h; sourceTree = "<group>"; };
+		EF58BE281E6D2FF700B60BE2 /* DataCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataCenter.m; sourceTree = "<group>"; };
+		EF5ABD541E6E8153000AED60 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EF5ABD561E6E8A8C000AED60 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		EF5ABD571E6E8A8C000AED60 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		EFDD5D871E6C6AF700ECE555 /* ContactList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFDD5D8B1E6C6AF700ECE555 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EFDD5D8D1E6C6AF700ECE555 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,6 +68,8 @@
 		EFDD5DC41E6C6DEB00ECE555 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
 		EFDD5DC51E6C6DEB00ECE555 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
 		EFDD5DCA1E6C7AD800ECE555 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		EFFDAAFD1E6D972800102D14 /* AddNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNameViewController.h; sourceTree = "<group>"; };
+		EFFDAAFE1E6D972800102D14 /* AddNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNameViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,17 +77,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF5ABD551E6E8153000AED60 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF5ABD531E6E8153000AED60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF5ABD541E6E8153000AED60 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF5ABD591E6E8E80000AED60 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				EF5ABD561E6E8A8C000AED60 /* MapViewController.h */,
+				EF5ABD571E6E8A8C000AED60 /* MapViewController.m */,
+			);
+			name = MapView;
+			sourceTree = "<group>";
+		};
 		EFDD5D7E1E6C6AF700ECE555 = {
 			isa = PBXGroup;
 			children = (
 				EFDD5D891E6C6AF700ECE555 /* ContactList */,
 				EFDD5D881E6C6AF700ECE555 /* Products */,
+				EF5ABD531E6E8153000AED60 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,12 +122,17 @@
 			isa = PBXGroup;
 			children = (
 				EFDD5DA71E6C6BF800ECE555 /* Resource */,
+				EF58BE251E6D2DD300B60BE2 /* ContactList.plist */,
 				EFDD5D8D1E6C6AF700ECE555 /* AppDelegate.h */,
 				EFDD5D8E1E6C6AF700ECE555 /* AppDelegate.m */,
 				EFDD5DA11E6C6BB600ECE555 /* MasterViewController.h */,
 				EFDD5DA21E6C6BB600ECE555 /* MasterViewController.m */,
+				EFFDAAFD1E6D972800102D14 /* AddNameViewController.h */,
+				EFFDAAFE1E6D972800102D14 /* AddNameViewController.m */,
 				EFDD5DC41E6C6DEB00ECE555 /* CustomCell.h */,
 				EFDD5DC51E6C6DEB00ECE555 /* CustomCell.m */,
+				EF58BE271E6D2FF700B60BE2 /* DataCenter.h */,
+				EF58BE281E6D2FF700B60BE2 /* DataCenter.m */,
 				EFDD5DCA1E6C7AD800ECE555 /* Storyboard.storyboard */,
 				EFDD5D961E6C6AF700ECE555 /* Assets.xcassets */,
 				EFDD5D981E6C6AF700ECE555 /* LaunchScreen.storyboard */,
@@ -116,6 +153,7 @@
 		EFDD5DA71E6C6BF800ECE555 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				EF5ABD591E6E8E80000AED60 /* MapView */,
 				EFDD5DA81E6C6C2100ECE555 /* apple.jpeg */,
 				EFDD5DA91E6C6C2100ECE555 /* background.jpg */,
 				EFDD5DAA1E6C6C2100ECE555 /* blueberry.jpg */,
@@ -165,6 +203,7 @@
 				TargetAttributes = {
 					EFDD5D861E6C6AF700ECE555 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NN7QXHC8A3;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -195,6 +234,7 @@
 				EFDD5DC11E6C6C2100ECE555 /* tomato.png in Resources */,
 				EFDD5DB91E6C6C2100ECE555 /* carrot.jpg in Resources */,
 				EFDD5DBC1E6C6C2100ECE555 /* kiwi.png in Resources */,
+				EF58BE261E6D2DD300B60BE2 /* ContactList.plist in Resources */,
 				EFDD5DC01E6C6C2100ECE555 /* strawberry.jpg in Resources */,
 				EFDD5DB61E6C6C2100ECE555 /* apple.jpeg in Resources */,
 				EFDD5DBA1E6C6C2100ECE555 /* cherry.png in Resources */,
@@ -220,9 +260,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFDD5D8F1E6C6AF700ECE555 /* AppDelegate.m in Sources */,
+				EF58BE291E6D2FF700B60BE2 /* DataCenter.m in Sources */,
 				EFDD5DA31E6C6BB600ECE555 /* MasterViewController.m in Sources */,
+				EFFDAAFF1E6D972800102D14 /* AddNameViewController.m in Sources */,
 				EFDD5D8C1E6C6AF700ECE555 /* main.m in Sources */,
 				EFDD5DC61E6C6DEB00ECE555 /* CustomCell.m in Sources */,
+				EF5ABD581E6E8A8C000AED60 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,9 +375,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NN7QXHC8A3;
 				INFOPLIST_FILE = ContactList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = CNT.ContactList;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alab.Contact;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -343,9 +387,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NN7QXHC8A3;
 				INFOPLIST_FILE = ContactList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = CNT.ContactList;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alab.Contact;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -369,6 +414,7 @@
 				EFDD5DA01E6C6AF700ECE555 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
