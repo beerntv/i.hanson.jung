@@ -11,6 +11,7 @@
 		EF58BE291E6D2FF700B60BE2 /* DataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = EF58BE281E6D2FF700B60BE2 /* DataCenter.m */; };
 		EF5ABD551E6E8153000AED60 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5ABD541E6E8153000AED60 /* MapKit.framework */; };
 		EF5ABD581E6E8A8C000AED60 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5ABD571E6E8A8C000AED60 /* MapViewController.m */; };
+		EF5ABD5C1E6E99D0000AED60 /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5ABD5B1E6E99D0000AED60 /* Annotation.m */; };
 		EFDD5D8C1E6C6AF700ECE555 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDD5D8B1E6C6AF700ECE555 /* main.m */; };
 		EFDD5D8F1E6C6AF700ECE555 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDD5D8E1E6C6AF700ECE555 /* AppDelegate.m */; };
 		EFDD5D971E6C6AF700ECE555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDD5D961E6C6AF700ECE555 /* Assets.xcassets */; };
@@ -42,6 +43,8 @@
 		EF5ABD541E6E8153000AED60 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		EF5ABD561E6E8A8C000AED60 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		EF5ABD571E6E8A8C000AED60 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		EF5ABD5A1E6E99D0000AED60 /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
+		EF5ABD5B1E6E99D0000AED60 /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
 		EFDD5D871E6C6AF700ECE555 /* ContactList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFDD5D8B1E6C6AF700ECE555 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EFDD5D8D1E6C6AF700ECE555 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -97,6 +100,8 @@
 			children = (
 				EF5ABD561E6E8A8C000AED60 /* MapViewController.h */,
 				EF5ABD571E6E8A8C000AED60 /* MapViewController.m */,
+				EF5ABD5A1E6E99D0000AED60 /* Annotation.h */,
+				EF5ABD5B1E6E99D0000AED60 /* Annotation.m */,
 			);
 			name = MapView;
 			sourceTree = "<group>";
@@ -261,6 +266,7 @@
 			files = (
 				EFDD5D8F1E6C6AF700ECE555 /* AppDelegate.m in Sources */,
 				EF58BE291E6D2FF700B60BE2 /* DataCenter.m in Sources */,
+				EF5ABD5C1E6E99D0000AED60 /* Annotation.m in Sources */,
 				EFDD5DA31E6C6BB600ECE555 /* MasterViewController.m in Sources */,
 				EFFDAAFF1E6D972800102D14 /* AddNameViewController.m in Sources */,
 				EFDD5D8C1E6C6AF700ECE555 /* main.m in Sources */,
