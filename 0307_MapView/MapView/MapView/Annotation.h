@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import <MapKit/MapKit.h>
+
+
 @interface Annotation : NSObject
 <MKAnnotation> // 프로토콜을 상속받은 애는 꼭 그의 프로퍼티를 써야한다
 

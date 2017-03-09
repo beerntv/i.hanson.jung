@@ -11,13 +11,14 @@
 #import <MapKit/MapKit.h>
 #import <CoreLocation/CoreLocation.h>
 #import "Annotation.h"
-
+#import <MapKit/MKAnnotation.h>
+#import <MapKit/MKPinAnnotationView.h>
 
 
 static const CGFloat BASE_LATITUDE = 37.563214; // 위도
 static const CGFloat BASE_LONGITUDE = 127.006686; // 경도
 
-@interface MapViewController () <CLLocationManagerDelegate>
+@interface MapViewController () <CLLocationManagerDelegate, MKMapViewDelegate>
 
 @property (nonatomic, weak) IBOutlet MKMapView *mapView;
 @property (nonatomic) CLLocationManager *locationManager;
@@ -56,10 +57,6 @@ static const CGFloat BASE_LONGITUDE = 127.006686; // 경도
     longPressGesture.minimumPressDuration = 1.0;
     [self.mapView addGestureRecognizer:longPressGesture];
     
-    
-   
-    
-    
 }
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray<CLLocation *> *)locations {
@@ -84,21 +81,48 @@ static const CGFloat BASE_LONGITUDE = 127.006686; // 경도
         CGPoint touchLocation = [gestureRecognizer locationInView:self.mapView];
         
         CLLocationCoordinate2D coordinate;
-        coordinate = [self.mapView convertPoint:touchLocation toCoordinateFromView:self.mapView];// how to convert this to a String or something else?
+        coordinate = [self.mapView convertPoint:touchLocation toCoordinateFromView:self.mapView];
         
         _customLatitude = coordinate.latitude;
         _customLongitude = coordinate.longitude;
         CLLocationCoordinate2D customCoordinate = CLLocationCoordinate2DMake(_customLatitude, _customLongitude);
         
-        Annotation *anno = [[Annotation alloc] initWithTitle:@"myPosition" AndCoordinate:customCoordinate];
-        [self.mapView addAnnotation:anno];
+        Annotation *annotation = [[Annotation alloc] initWithTitle:@"myPosition" AndCoordinate:customCoordinate];
+        
+        [self.mapView addAnnotation:annotation];
+        
+        
+        
+        
         NSLog(@"Longpress");
         NSLog(@"LongPress coordinate: latitude = %f, longitude  = %f", coordinate.latitude, coordinate.longitude);
+        
     }
     
-    
-    
 }
+
+
+
+//////////// *************** 핀을 옮기고 싶어요
+-(MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id) annotation {
+    
+    MKPinAnnotationView *pinView = (MKPinAnnotationView *)[self.mapView dequeueReusableAnnotationViewWithIdentifier:@"pin"];
+    
+    if(!pinView) {
+        pinView = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reueseIdentifier:@"pin"];
+    } else {
+        pinView.annotation = annotation;
+    }
+    
+    pinView.animatesDrop = YES;
+    pinView.draggable = YES;
+    pinView.canShowCallout = YES;
+    [pinView setAnnotation:annotation];
+ 
+    return pinView;
+}
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
