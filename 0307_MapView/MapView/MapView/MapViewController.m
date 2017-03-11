@@ -17,12 +17,14 @@
 static const CGFloat BASE_LATITUDE = 37.563214; // 위도
 static const CGFloat BASE_LONGITUDE = 127.006686; // 경도
 
-@interface MapViewController () <CLLocationManagerDelegate>
+@interface MapViewController () <CLLocationManagerDelegate, MKMapViewDelegate>
 
 @property (nonatomic, weak) IBOutlet MKMapView *mapView;
 @property (nonatomic) CLLocationManager *locationManager;
 @property (nonatomic) CGFloat customLatitude;
 @property (nonatomic) CGFloat customLongitude;
+
+@property (nonatomic) BOOL annoBool;
 
 @end
 
@@ -48,6 +50,7 @@ static const CGFloat BASE_LONGITUDE = 127.006686; // 경도
     [self.locationManager startUpdatingLocation];
     
     [self.mapView setShowsUserLocation:YES];
+    self.mapView.delegate = self;
     
     
     
@@ -63,6 +66,8 @@ static const CGFloat BASE_LONGITUDE = 127.006686; // 경도
 }
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray<CLLocation *> *)locations {
+    
+    self.annoBool = NO;
     
     CLLocationCoordinate2D coordinate = ((CLLocation *)locations.lastObject).coordinate;
     MKCoordinateSpan span = MKCoordinateSpanMake(0.005, 0.005);
@@ -99,6 +104,46 @@ static const CGFloat BASE_LONGITUDE = 127.006686; // 경도
     
     
 }
+
+//////////// *************** 커스텀 핀
+-(MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id) annotation {
+    if (!self.annoBool) {
+        MKPinAnnotationView *annotationView = (MKPinAnnotationView *)[self.mapView dequeueReusableAnnotationViewWithIdentifier:@"pin"];
+        
+        if(!annotationView) {
+            annotationView = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"pin"];
+        }
+        
+        [annotationView setPinTintColor:[MKPinAnnotationView greenPinColor]];
+        
+        annotationView.draggable = YES;
+        annotationView.canShowCallout = YES;
+        [annotationView setAnnotation:annotation];
+        
+        self.annoBool = YES;
+        
+    } else {
+    
+        MKPinAnnotationView *annotationView = (MKPinAnnotationView *)[self.mapView dequeueReusableAnnotationViewWithIdentifier:@"pin"];
+
+        if(!annotationView) {
+            annotationView = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"pin"];
+        }
+        
+        [annotationView setPinTintColor:[MKPinAnnotationView greenPinColor]];
+
+        annotationView.draggable = YES;
+        annotationView.canShowCallout = YES;
+        [annotationView setAnnotation:annotation];
+            
+    }
+
+    return annotationView;
+}
+
+
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
