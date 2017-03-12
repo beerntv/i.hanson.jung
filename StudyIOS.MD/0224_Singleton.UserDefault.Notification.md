@@ -21,10 +21,15 @@ singleton pattern
 | code  |                                 |
 
 ```objc
+//singleton.h
+
 @interface DataCenter : NSObject
 
 + (instancetype)sharedInstance ;
 @end
+```
+```objc
+//singleton.m
 
 @implementation DataCenter
 
@@ -93,7 +98,7 @@ NSString * nameData = [[NSUserDefaults standardUserDefaults] objectForKey:@"name
 NSLog(@"저장된 이름은 %@입니다", nameData);
 ```
 
-NOtification
+Notification
 ============
 
 -	Push Notification
