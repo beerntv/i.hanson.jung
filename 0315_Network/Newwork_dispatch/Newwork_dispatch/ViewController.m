@@ -20,6 +20,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
+    
+    
     NSArray *arrayUrl = @[@"http://www.newhdtour.com/images/area/51_1.jpg",
                           @"http://iaufrance.org/Content/Uploads/CMS/Images/barcelona-spain.jpg",
                           @"http://www.v3wall.com/wallpaper/1600_1200/1111/1600_1200_20111117091303772935.jpg"
@@ -67,7 +70,7 @@
         [task resume];
         
         
-        
+        NSURLSessionUploadTask
     }
     
     
