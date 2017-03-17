@@ -14,6 +14,8 @@
 @property (weak, nonatomic) IBOutlet UITextField *loginIDTextField;
 @property (weak, nonatomic) IBOutlet UITextField *loginPWTextField;
 @property (weak, nonatomic) IBOutlet UIButton *loginBtn;
+@property (weak, nonatomic) UILabel * errorAlert;
+
 
 @end
 
@@ -24,12 +26,17 @@
     // Do any additional setup after loading the view.
     self.loginIDTextField.delegate = self;
     self.loginPWTextField.delegate = self;
-
+    
     
     self.loginIDTextField.tag = 10;
     self.loginPWTextField.tag = 20;
-  
     
+    // log in 실패 alert
+    UILabel *errorAlert = [[UILabel alloc] initWithFrame:CGRectMake(100, 300, 250, 50)];
+    errorAlert.textColor = [UIColor redColor];
+    [errorAlert setFont:[UIFont systemFontOfSize:12]];
+    self.errorAlert = errorAlert;
+    [self.view addSubview:errorAlert];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -71,23 +78,38 @@
         if (error == nil) {
             NSDictionary *responsData = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableLeaves error:nil];
             NSLog(@"system success");
-            //아이디나 패스워드가 틀렸을때도 이리 넘어왔는데 그건 로그인이 틀렸다는 거지 시스템 에러라는 뜻이 아님.
+            //아이디나 패스워드가 틀렸을때도 이리 넘어왔는데 그건 로그인이 틀렸다는거지 시스템 에러라는 뜻이 아님.
             NSLog(@"%@", responsData);
             //completion(NO, responsData);
-           
+            [DataCenter sharedInstance].token = [responsData objectForKey:@"key"];
+            
+            NSInteger statusCode = [(NSHTTPURLResponse *)response statusCode];
+            NSLog(@"statusCode %ld", statusCode);
+            
+            if ([DataCenter sharedInstance].token == nil) {
+                NSLog(@"아이디 혹은 비밀번호를 다시 확인하세요.");
+                
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    self.errorAlert.text = @"아이디 혹은 비밀번호를 다시 확인하세요.";
+                });
+                
+            } else {
+                self.errorAlert.text = @"";
+            }
+            
         } else {
             NSDictionary *responsData = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableLeaves error:nil];
             NSLog(@"system error");
             NSLog(@"%@", responsData);
             //completion(YES, responsData);
             
+            NSInteger statusCode = [(NSHTTPURLResponse *)response statusCode];
+            NSLog(@"statusCode %ld", statusCode);
             
         }
     }];
     
     [postDataTask resume];
-    
-    
     
 }
 
@@ -108,17 +130,14 @@
 
 
 
-    
-
-
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 
 @end
