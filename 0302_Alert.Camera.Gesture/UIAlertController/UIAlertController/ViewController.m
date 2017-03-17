@@ -35,6 +35,15 @@
     
     [alert addTarget:self action:@selector(didClickButton:) forControlEvents:UIControlEventTouchUpInside];
     
+    
+//    [self.customView changeTextAction:^NSString *] {
+//        return @"hahaha";
+//        
+//    }];
+//    
+    
+    
+    
 }
 
 //- (UIViewController *)targetViewControllerForAction:(SEL)action sender:(id)sender {

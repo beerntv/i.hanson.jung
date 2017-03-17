@@ -13,6 +13,7 @@
 		EF2427181E67AF7D00E1FD90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2427161E67AF7D00E1FD90 /* Main.storyboard */; };
 		EF24271A1E67AF7D00E1FD90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF2427191E67AF7D00E1FD90 /* Assets.xcassets */; };
 		EF24271D1E67AF7D00E1FD90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF24271B1E67AF7D00E1FD90 /* LaunchScreen.storyboard */; };
+		EF28F70F1E728FD7001F50E7 /* myView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF28F70E1E728FD7001F50E7 /* myView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		EF2427191E67AF7D00E1FD90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF24271C1E67AF7D00E1FD90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF24271E1E67AF7D00E1FD90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF28F70D1E728FD7001F50E7 /* myView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myView.h; sourceTree = "<group>"; };
+		EF28F70E1E728FD7001F50E7 /* myView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				EF2427111E67AF7D00E1FD90 /* AppDelegate.m */,
 				EF2427131E67AF7D00E1FD90 /* ViewController.h */,
 				EF2427141E67AF7D00E1FD90 /* ViewController.m */,
+				EF28F70D1E728FD7001F50E7 /* myView.h */,
+				EF28F70E1E728FD7001F50E7 /* myView.m */,
 				EF2427161E67AF7D00E1FD90 /* Main.storyboard */,
 				EF2427191E67AF7D00E1FD90 /* Assets.xcassets */,
 				EF24271B1E67AF7D00E1FD90 /* LaunchScreen.storyboard */,
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF28F70F1E728FD7001F50E7 /* myView.m in Sources */,
 				EF2427151E67AF7D00E1FD90 /* ViewController.m in Sources */,
 				EF2427121E67AF7D00E1FD90 /* AppDelegate.m in Sources */,
 				EF24270F1E67AF7D00E1FD90 /* main.m in Sources */,
@@ -307,6 +313,7 @@
 				EF2427231E67AF7D00E1FD90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

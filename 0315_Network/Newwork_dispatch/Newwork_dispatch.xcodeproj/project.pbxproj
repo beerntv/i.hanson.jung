@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF7C7ED51E794F1300F79636 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7C7ED41E794F1300F79636 /* main.m */; };
+		EF7C7ED81E794F1300F79636 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7C7ED71E794F1300F79636 /* AppDelegate.m */; };
+		EF7C7EDB1E794F1300F79636 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7C7EDA1E794F1300F79636 /* ViewController.m */; };
+		EF7C7EDE1E794F1300F79636 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7C7EDC1E794F1300F79636 /* Main.storyboard */; };
+		EF7C7EE01E794F1300F79636 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7C7EDF1E794F1300F79636 /* Assets.xcassets */; };
+		EF7C7EE31E794F1300F79636 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7C7EE11E794F1300F79636 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF7C7ED01E794F1300F79636 /* Newwork_dispatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Newwork_dispatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7C7ED41E794F1300F79636 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF7C7ED61E794F1300F79636 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF7C7ED71E794F1300F79636 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF7C7ED91E794F1300F79636 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF7C7EDA1E794F1300F79636 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF7C7EDD1E794F1300F79636 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF7C7EDF1E794F1300F79636 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF7C7EE21E794F1300F79636 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF7C7EE41E794F1300F79636 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF7C7ECD1E794F1300F79636 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF7C7EC71E794F1300F79636 = {
+			isa = PBXGroup;
+			children = (
+				EF7C7ED21E794F1300F79636 /* Newwork_dispatch */,
+				EF7C7ED11E794F1300F79636 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF7C7ED11E794F1300F79636 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF7C7ED01E794F1300F79636 /* Newwork_dispatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF7C7ED21E794F1300F79636 /* Newwork_dispatch */ = {
+			isa = PBXGroup;
+			children = (
+				EF7C7ED61E794F1300F79636 /* AppDelegate.h */,
+				EF7C7ED71E794F1300F79636 /* AppDelegate.m */,
+				EF7C7ED91E794F1300F79636 /* ViewController.h */,
+				EF7C7EDA1E794F1300F79636 /* ViewController.m */,
+				EF7C7EDC1E794F1300F79636 /* Main.storyboard */,
+				EF7C7EDF1E794F1300F79636 /* Assets.xcassets */,
+				EF7C7EE11E794F1300F79636 /* LaunchScreen.storyboard */,
+				EF7C7EE41E794F1300F79636 /* Info.plist */,
+				EF7C7ED31E794F1300F79636 /* Supporting Files */,
+			);
+			path = Newwork_dispatch;
+			sourceTree = "<group>";
+		};
+		EF7C7ED31E794F1300F79636 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF7C7ED41E794F1300F79636 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF7C7ECF1E794F1300F79636 /* Newwork_dispatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7C7EE71E794F1300F79636 /* Build configuration list for PBXNativeTarget "Newwork_dispatch" */;
+			buildPhases = (
+				EF7C7ECC1E794F1300F79636 /* Sources */,
+				EF7C7ECD1E794F1300F79636 /* Frameworks */,
+				EF7C7ECE1E794F1300F79636 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Newwork_dispatch;
+			productName = Newwork_dispatch;
+			productReference = EF7C7ED01E794F1300F79636 /* Newwork_dispatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF7C7EC81E794F1300F79636 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = waaoo;
+				TargetAttributes = {
+					EF7C7ECF1E794F1300F79636 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EF7C7ECB1E794F1300F79636 /* Build configuration list for PBXProject "Newwork_dispatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF7C7EC71E794F1300F79636;
+			productRefGroup = EF7C7ED11E794F1300F79636 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF7C7ECF1E794F1300F79636 /* Newwork_dispatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF7C7ECE1E794F1300F79636 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7C7EE31E794F1300F79636 /* LaunchScreen.storyboard in Resources */,
+				EF7C7EE01E794F1300F79636 /* Assets.xcassets in Resources */,
+				EF7C7EDE1E794F1300F79636 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF7C7ECC1E794F1300F79636 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7C7EDB1E794F1300F79636 /* ViewController.m in Sources */,
+				EF7C7ED81E794F1300F79636 /* AppDelegate.m in Sources */,
+				EF7C7ED51E794F1300F79636 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF7C7EDC1E794F1300F79636 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF7C7EDD1E794F1300F79636 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF7C7EE11E794F1300F79636 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF7C7EE21E794F1300F79636 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF7C7EE51E794F1300F79636 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF7C7EE61E794F1300F79636 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF7C7EE81E794F1300F79636 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Newwork_dispatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CNT.Newwork-dispatch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF7C7EE91E794F1300F79636 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Newwork_dispatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CNT.Newwork-dispatch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF7C7ECB1E794F1300F79636 /* Build configuration list for PBXProject "Newwork_dispatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7C7EE51E794F1300F79636 /* Debug */,
+				EF7C7EE61E794F1300F79636 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7C7EE71E794F1300F79636 /* Build configuration list for PBXNativeTarget "Newwork_dispatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7C7EE81E794F1300F79636 /* Debug */,
+				EF7C7EE91E794F1300F79636 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF7C7EC81E794F1300F79636 /* Project object */;
+}
