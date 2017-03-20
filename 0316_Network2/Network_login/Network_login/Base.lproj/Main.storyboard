@@ -58,13 +58,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="95O-b3-fBo">
-                                <rect key="frame" x="209" y="257" width="50" height="30"/>
-                                <state key="normal" title="sign up"/>
-                                <connections>
-                                    <segue destination="2O4-46-zmr" kind="show" id="Jnf-tp-vcw"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o50-Ho-3f6">
                                 <rect key="frame" x="116" y="257" width="38" height="30"/>
                                 <state key="normal" title="log in"/>
@@ -72,16 +65,38 @@
                                     <action selector="selectedLoginBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aSR-9w-ktp"/>
                                 </connections>
                             </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dOb-ra-CL1">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Title" id="Udc-pE-fcw"/>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ory-G6-mSX">
+                                <rect key="frame" x="211" y="257" width="48" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="log out"/>
+                                <connections>
+                                    <action selector="selectedLogoutBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gVj-rR-WvN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="95O-b3-fBo">
+                                <rect key="frame" x="116" y="304" width="50" height="30"/>
+                                <state key="normal" title="sign up"/>
+                                <connections>
+                                    <segue destination="2O4-46-zmr" kind="show" id="Jnf-tp-vcw"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.14929326113893737" green="1" blue="0.96925741856521208" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="o50-Ho-3f6" firstAttribute="top" secondItem="VGq-eP-e7C" secondAttribute="bottom" constant="37" id="2Hl-5E-VAw"/>
                             <constraint firstAttribute="trailingMargin" secondItem="VGq-eP-e7C" secondAttribute="trailing" constant="100" id="7C4-LA-KxX"/>
+                            <constraint firstItem="95O-b3-fBo" firstAttribute="leading" secondItem="ga7-Ig-cns" secondAttribute="leading" id="9dK-cg-Znq"/>
                             <constraint firstItem="o50-Ho-3f6" firstAttribute="leading" secondItem="VGq-eP-e7C" secondAttribute="leading" id="IyG-EB-G0G"/>
-                            <constraint firstItem="95O-b3-fBo" firstAttribute="trailing" secondItem="VGq-eP-e7C" secondAttribute="trailing" id="Me8-CZ-tr0"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ga7-Ig-cns" secondAttribute="trailing" constant="100" id="Pz3-4N-fHt"/>
+                            <constraint firstItem="95O-b3-fBo" firstAttribute="top" secondItem="o50-Ho-3f6" secondAttribute="bottom" constant="17" id="Ugy-kr-mI1"/>
                             <constraint firstItem="ga7-Ig-cns" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="100" id="Uyp-xS-2o1"/>
-                            <constraint firstItem="95O-b3-fBo" firstAttribute="top" secondItem="VGq-eP-e7C" secondAttribute="bottom" constant="37" id="epB-Pl-6bJ"/>
                             <constraint firstItem="ga7-Ig-cns" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="110" id="htZ-eW-Sn9"/>
                             <constraint firstItem="VGq-eP-e7C" firstAttribute="top" secondItem="ga7-Ig-cns" secondAttribute="bottom" constant="30" id="rAt-3d-ECO"/>
                             <constraint firstItem="VGq-eP-e7C" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="100" id="wEw-tj-uiU"/>
@@ -91,6 +106,7 @@
                         <outlet property="loginBtn" destination="o50-Ho-3f6" id="KET-Je-uxH"/>
                         <outlet property="loginIDTextField" destination="ga7-Ig-cns" id="dX1-Vp-no6"/>
                         <outlet property="loginPWTextField" destination="VGq-eP-e7C" id="OBg-Gp-5Y4"/>
+                        <outlet property="logoutBtn" destination="Ory-G6-mSX" id="nCN-zT-fWE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -118,47 +134,50 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="PW를 입력하세요" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mgn-YE-bT3">
-                                <rect key="frame" x="118" y="199" width="142" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="PW를 재입력하세요" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WAv-OB-xlY">
+                                <rect key="frame" x="116" y="235" width="143" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="PW를 재입력하세요" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WAv-OB-xlY">
-                                <rect key="frame" x="118" y="243" width="142" height="30"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ae-Hs-ru1">
-                                <rect key="frame" x="218" y="307" width="38" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ae-Hs-ru1">
+                                <rect key="frame" x="221" y="299" width="38" height="30"/>
                                 <state key="normal" title="log in"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="0rh-IW-O3x"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="74t-CZ-Jfm">
-                                <rect key="frame" x="115" y="307" width="52" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="74t-CZ-Jfm">
+                                <rect key="frame" x="116" y="299" width="52" height="30"/>
                                 <state key="normal" title="Sign up"/>
                                 <connections>
                                     <action selector="selectedSignupBtn:" destination="2O4-46-zmr" eventType="touchUpInside" id="Dxf-1Y-2NB"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="PW를 입력하세요" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mgn-YE-bT3">
+                                <rect key="frame" x="116" y="185" width="143" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.82965544828204951" blue="0.9151781828722072" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
+                            <constraint firstItem="mgn-YE-bT3" firstAttribute="leading" secondItem="lZh-ga-7iV" secondAttribute="leading" id="7zJ-C9-0MX"/>
+                            <constraint firstItem="WAv-OB-xlY" firstAttribute="leading" secondItem="lZh-ga-7iV" secondAttribute="leading" id="C2w-yU-KcM"/>
+                            <constraint firstItem="6ae-Hs-ru1" firstAttribute="trailing" secondItem="lZh-ga-7iV" secondAttribute="trailing" id="IsY-CE-Fce"/>
                             <constraint firstItem="lZh-ga-7iV" firstAttribute="top" secondItem="sJ9-Qq-IrT" secondAttribute="bottom" constant="110" id="L6W-2Y-Cyf"/>
                             <constraint firstItem="6ae-Hs-ru1" firstAttribute="top" secondItem="WAv-OB-xlY" secondAttribute="bottom" constant="34" id="Ozo-u9-4l2"/>
                             <constraint firstItem="lZh-ga-7iV" firstAttribute="leading" secondItem="hJJ-kU-CkT" secondAttribute="leadingMargin" constant="100" id="QSs-Lf-jjJ"/>
-                            <constraint firstItem="WAv-OB-xlY" firstAttribute="top" secondItem="mgn-YE-bT3" secondAttribute="bottom" constant="15" id="UST-fF-odr"/>
-                            <constraint firstItem="74t-CZ-Jfm" firstAttribute="leading" secondItem="WAv-OB-xlY" secondAttribute="leading" id="UnA-wn-Svp"/>
+                            <constraint firstItem="74t-CZ-Jfm" firstAttribute="leading" secondItem="lZh-ga-7iV" secondAttribute="leading" id="Tub-Ig-CoE"/>
+                            <constraint firstItem="WAv-OB-xlY" firstAttribute="top" secondItem="mgn-YE-bT3" secondAttribute="bottom" constant="20" id="UST-fF-odr"/>
                             <constraint firstAttribute="trailingMargin" secondItem="lZh-ga-7iV" secondAttribute="trailing" constant="100" id="ajr-Q1-UyQ"/>
-                            <constraint firstItem="mgn-YE-bT3" firstAttribute="top" secondItem="lZh-ga-7iV" secondAttribute="bottom" constant="30" id="bHk-HJ-1AM"/>
+                            <constraint firstItem="mgn-YE-bT3" firstAttribute="width" secondItem="lZh-ga-7iV" secondAttribute="width" id="aqi-YE-yNc"/>
+                            <constraint firstItem="mgn-YE-bT3" firstAttribute="top" secondItem="lZh-ga-7iV" secondAttribute="bottom" constant="25" id="bHk-HJ-1AM"/>
                             <constraint firstItem="6ae-Hs-ru1" firstAttribute="trailing" secondItem="WAv-OB-xlY" secondAttribute="trailing" id="dWy-DK-4dG"/>
                             <constraint firstItem="74t-CZ-Jfm" firstAttribute="top" secondItem="WAv-OB-xlY" secondAttribute="bottom" constant="34" id="ykV-Rz-hHf"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="029-CF-Gfj"/>
                     <connections>
                         <outlet property="signupIDTextField" destination="lZh-ga-7iV" id="3j6-o8-mIT"/>
                         <outlet property="signupPWAgainTextfield" destination="WAv-OB-xlY" id="H0j-m5-Cuc"/>

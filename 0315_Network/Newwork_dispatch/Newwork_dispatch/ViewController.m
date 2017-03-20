@@ -70,7 +70,7 @@
         [task resume];
         
         
-        NSURLSessionUploadTask
+        
     }
     
     
