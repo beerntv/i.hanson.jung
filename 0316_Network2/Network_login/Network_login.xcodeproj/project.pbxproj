@@ -15,10 +15,16 @@
 		EF7C7F061E7A3CE100F79636 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7C7F041E7A3CE100F79636 /* LaunchScreen.storyboard */; };
 		EF7C7F0F1E7A564C00F79636 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7C7F0D1E7A564C00F79636 /* Main.storyboard */; };
 		EF7C7F121E7A572A00F79636 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7C7F111E7A572A00F79636 /* SignupViewController.m */; };
+		EF800EA21E80E9BD0044F5FB /* NetworkModule.m in Sources */ = {isa = PBXBuildFile; fileRef = EF800EA11E80E9BD0044F5FB /* NetworkModule.m */; };
+		EF92EAFC1E8108F100E0F5FD /* 111.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF92EAFB1E8108F100E0F5FD /* 111.jpg */; };
 		EFF39FCD1E7BBC2300887F5F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF39FCC1E7BBC2300887F5F /* LoginViewController.m */; };
+		F632900A804F8D088FCC26A9 /* libPods-Network_login.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04218C2CE996E9AB4FC23717 /* libPods-Network_login.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04218C2CE996E9AB4FC23717 /* libPods-Network_login.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Network_login.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E9028CA320A188568682782 /* Pods-Network_login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Network_login.release.xcconfig"; path = "Pods/Target Support Files/Pods-Network_login/Pods-Network_login.release.xcconfig"; sourceTree = "<group>"; };
+		A1BA8FBC17D9C1D54B5DCC70 /* Pods-Network_login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Network_login.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Network_login/Pods-Network_login.debug.xcconfig"; sourceTree = "<group>"; };
 		EF3332131E7B950400D1D95E /* DataCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataCenter.h; sourceTree = "<group>"; };
 		EF3332141E7B950400D1D95E /* DataCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataCenter.m; sourceTree = "<group>"; };
 		EF7C7EF31E7A3CE100F79636 /* Network_login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Network_login.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,6 +39,9 @@
 		EF7C7F0E1E7A564C00F79636 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF7C7F101E7A572A00F79636 /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
 		EF7C7F111E7A572A00F79636 /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
+		EF800EA01E80E9BD0044F5FB /* NetworkModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkModule.h; sourceTree = "<group>"; };
+		EF800EA11E80E9BD0044F5FB /* NetworkModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkModule.m; sourceTree = "<group>"; };
+		EF92EAFB1E8108F100E0F5FD /* 111.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 111.jpg; sourceTree = "<group>"; };
 		EFF39FCB1E7BBC2300887F5F /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		EFF39FCC1E7BBC2300887F5F /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -42,12 +51,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F632900A804F8D088FCC26A9 /* libPods-Network_login.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48324EC03A94E128AB1A4F2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1BA8FBC17D9C1D54B5DCC70 /* Pods-Network_login.debug.xcconfig */,
+				4E9028CA320A188568682782 /* Pods-Network_login.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C951B7172E33677A2AA1B27A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04218C2CE996E9AB4FC23717 /* libPods-Network_login.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EF3332121E7B94E600D1D95E /* DataCenter */ = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +89,8 @@
 			children = (
 				EF7C7EF51E7A3CE100F79636 /* Network_login */,
 				EF7C7EF41E7A3CE100F79636 /* Products */,
+				48324EC03A94E128AB1A4F2D /* Pods */,
+				C951B7172E33677A2AA1B27A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,7 +105,10 @@
 		EF7C7EF51E7A3CE100F79636 /* Network_login */ = {
 			isa = PBXGroup;
 			children = (
+				EF92EAFB1E8108F100E0F5FD /* 111.jpg */,
 				EF7C7EF91E7A3CE100F79636 /* AppDelegate.h */,
+				EF800EA01E80E9BD0044F5FB /* NetworkModule.h */,
+				EF800EA11E80E9BD0044F5FB /* NetworkModule.m */,
 				EF7C7EFA1E7A3CE100F79636 /* AppDelegate.m */,
 				EF3332121E7B94E600D1D95E /* DataCenter */,
 				EF7C7EFC1E7A3CE100F79636 /* ViewController.h */,
@@ -109,9 +141,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF7C7F0A1E7A3CE100F79636 /* Build configuration list for PBXNativeTarget "Network_login" */;
 			buildPhases = (
+				A147EF822CB2AE4DE068B253 /* [CP] Check Pods Manifest.lock */,
 				EF7C7EEF1E7A3CE100F79636 /* Sources */,
 				EF7C7EF01E7A3CE100F79636 /* Frameworks */,
 				EF7C7EF11E7A3CE100F79636 /* Resources */,
+				982EA03DF326E0234B6BC72E /* [CP] Embed Pods Frameworks */,
+				5577C1E943E66E5835139B39 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,10 +198,59 @@
 				EF7C7F0F1E7A564C00F79636 /* Main.storyboard in Resources */,
 				EF7C7F061E7A3CE100F79636 /* LaunchScreen.storyboard in Resources */,
 				EF7C7F031E7A3CE100F79636 /* Assets.xcassets in Resources */,
+				EF92EAFC1E8108F100E0F5FD /* 111.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5577C1E943E66E5835139B39 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Network_login/Pods-Network_login-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		982EA03DF326E0234B6BC72E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Network_login/Pods-Network_login-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A147EF822CB2AE4DE068B253 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EF7C7EEF1E7A3CE100F79636 /* Sources */ = {
@@ -174,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF7C7EFE1E7A3CE100F79636 /* ViewController.m in Sources */,
+				EF800EA21E80E9BD0044F5FB /* NetworkModule.m in Sources */,
 				EF3332151E7B950400D1D95E /* DataCenter.m in Sources */,
 				EFF39FCD1E7BBC2300887F5F /* LoginViewController.m in Sources */,
 				EF7C7EFB1E7A3CE100F79636 /* AppDelegate.m in Sources */,
@@ -294,6 +379,7 @@
 		};
 		EF7C7F0B1E7A3CE100F79636 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1BA8FBC17D9C1D54B5DCC70 /* Pods-Network_login.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Network_login/Info.plist;
@@ -305,6 +391,7 @@
 		};
 		EF7C7F0C1E7A3CE100F79636 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E9028CA320A188568682782 /* Pods-Network_login.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Network_login/Info.plist;
