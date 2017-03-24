@@ -71,7 +71,7 @@
         
     //obj1과 obj2를 비교하면서 정렬
         if (fabs(obj1.center.x - actualContentOffset) > fabs(obj2.center.x - actualContentOffset)) {
-            //fabs 절대값
+            //float abs=절대값
             
             return NSOrderedDescending;
         } else if (fabs(obj1.center.x - actualContentOffset) < fabs(obj2.center.x - actualContentOffset)) {

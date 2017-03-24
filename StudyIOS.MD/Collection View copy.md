@@ -13,3 +13,7 @@ storyboard 안에
 Collection View Flow Layout
 
 Min spacing (minimum spacing)  : 셀간의 간격
+
+## Inset
+
+![](https://developer.apple.com/library/content/documentation/WindowsViews/Conceptual/CollectionViewPGforIOS/Art/flow_section_insets_2x.png)
