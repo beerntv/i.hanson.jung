@@ -43,8 +43,30 @@ Exit 된다음에 돌아올 때 아래 메서드가 불림
 
 > "Segue를 코드로 짜겠다"
 
+```
+ [self performSegueWithIdentifier:@"segueName" sender:self];
+```
+
+
 ![](http://2.bp.blogspot.com/-WlSaBYQKoJ8/VUm4kXl55AI/AAAAAAAAFYc/qQfqlNbkVDA/s1600/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%2B2015-05-06%2B%E4%B8%8B%E5%8D%882.40.01.png)
 
 ```
 [self performSegueWithIdentifier:@"segueName" sender:self];
 ```
+
+
+
+## ViewController 생성 이동 3가지
+
+```objc
+
+1. 코드로 alloc (근데 alloc init 타임때문에 넘어갈때 렉이 걸렸다. 
+//        PinModificationViewController *pinModiVC = [[PinModificationViewController alloc] init];
+        
+ 2. 스토리보드에서 만들어서 그 스토리보드의 ViewController를 부른다.       
+//        PinModificationViewController *pinModiVC = [self.storyboard instantiateViewControllerWithIdentifier:@"PinModificationViewController"];
+//        [self.navigationController pushViewController:pinModiVC animated:YES];
+
+3. 스토리보드에서 segue까지 만들어서 segue를 identifier로 부른다.         
+        [self performSegueWithIdentifier:@"pinModiSegue" sender:self];
+        ```

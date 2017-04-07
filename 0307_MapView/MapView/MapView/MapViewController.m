@@ -109,66 +109,66 @@ static const CGFloat BASE_LONGITUDE = 127.006686; // 경도
 
 
 //////////// *************** 핀을 옮기고 싶어요
--(MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id) annotation {
-    
-    MKPinAnnotationView *pinView = (MKPinAnnotationView *)[self.mapView dequeueReusableAnnotationViewWithIdentifier:@"pin"];
-    
-    if(!pinView) {
-        pinView = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reueseIdentifier:@"pin"];
-    } else {
-        pinView.annotation = annotation;
-    }
-    
-    pinView.animatesDrop = YES;
-    pinView.draggable = YES;
-    pinView.canShowCallout = YES;
-    [pinView setAnnotation:annotation];
- 
-    return pinView;
-}
+//-(MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id) annotation {
+//    
+//    MKPinAnnotationView *pinView = (MKPinAnnotationView *)[self.mapView dequeueReusableAnnotationViewWithIdentifier:@"pin"];
+//    
+//    if(!pinView) {
+//        pinView = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reueseIdentifier:@"pin"];
+//    } else {
+//        pinView.annotation = annotation;
+//    }
+//    
+//    pinView.animatesDrop = YES;
+//    pinView.draggable = YES;
+//    pinView.canShowCallout = YES;
+//    [pinView setAnnotation:annotation];
+// 
+//    return pinView;
+//}
 
-<<<<<<< HEAD
-=======
-//////////// *************** 커스텀 핀
--(MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id) annotation {
-    if (!self.annoBool) {
-        MKPinAnnotationView *annotationView = (MKPinAnnotationView *)[self.mapView dequeueReusableAnnotationViewWithIdentifier:@"pin"];
-        
-        if(!annotationView) {
-            annotationView = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"pin"];
-        }
-        
-        [annotationView setPinTintColor:[MKPinAnnotationView greenPinColor]];
-        
-        annotationView.draggable = YES;
-        annotationView.canShowCallout = YES;
-        [annotationView setAnnotation:annotation];
-        
-        self.annoBool = YES;
-        
-    } else {
-    
-        MKPinAnnotationView *annotationView = (MKPinAnnotationView *)[self.mapView dequeueReusableAnnotationViewWithIdentifier:@"pin"];
-
-        if(!annotationView) {
-            annotationView = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"pin"];
-        }
-        
-        [annotationView setPinTintColor:[MKPinAnnotationView greenPinColor]];
-
-        annotationView.draggable = YES;
-        annotationView.canShowCallout = YES;
-        [annotationView setAnnotation:annotation];
-            
-    }
-
-    return annotationView;
-}
-
-
-
->>>>>>> 9f1e13d10e7eb9d16246b5e22bcc38acea67cdcb
-
+//<<<<<<< HEAD
+//=======
+////////////// *************** 커스텀 핀
+//-(MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id) annotation {
+//    if (!self.annoBool) {
+//        MKPinAnnotationView *annotationView = (MKPinAnnotationView *)[self.mapView dequeueReusableAnnotationViewWithIdentifier:@"pin"];
+//        
+//        if(!annotationView) {
+//            annotationView = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"pin"];
+//        }
+//        
+//        [annotationView setPinTintColor:[MKPinAnnotationView greenPinColor]];
+//        
+//        annotationView.draggable = YES;
+//        annotationView.canShowCallout = YES;
+//        [annotationView setAnnotation:annotation];
+//        
+//        self.annoBool = YES;
+//        
+//    } else {
+//    
+//        MKPinAnnotationView *annotationView = (MKPinAnnotationView *)[self.mapView dequeueReusableAnnotationViewWithIdentifier:@"pin"];
+//
+//        if(!annotationView) {
+//            annotationView = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"pin"];
+//        }
+//        
+//        [annotationView setPinTintColor:[MKPinAnnotationView greenPinColor]];
+//
+//        annotationView.draggable = YES;
+//        annotationView.canShowCallout = YES;
+//        [annotationView setAnnotation:annotation];
+//            
+//    }
+//
+//    return annotationView;
+//}
+//
+//
+//
+//>>>>>>> 9f1e13d10e7eb9d16246b5e22bcc38acea67cdcb
+//
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

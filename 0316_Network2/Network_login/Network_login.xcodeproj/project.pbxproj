@@ -107,9 +107,9 @@
 			children = (
 				EF92EAFB1E8108F100E0F5FD /* 111.jpg */,
 				EF7C7EF91E7A3CE100F79636 /* AppDelegate.h */,
+				EF7C7EFA1E7A3CE100F79636 /* AppDelegate.m */,
 				EF800EA01E80E9BD0044F5FB /* NetworkModule.h */,
 				EF800EA11E80E9BD0044F5FB /* NetworkModule.m */,
-				EF7C7EFA1E7A3CE100F79636 /* AppDelegate.m */,
 				EF3332121E7B94E600D1D95E /* DataCenter */,
 				EF7C7EFC1E7A3CE100F79636 /* ViewController.h */,
 				EF7C7EFD1E7A3CE100F79636 /* ViewController.m */,

@@ -65,12 +65,6 @@
     // 얹기
     
     
-    NSMutableArray
-  
-    
-    
-    
-    
     
 }
 

@@ -24,7 +24,7 @@
     [super viewDidLoad];
     self.source = [[DataSource alloc] init];
     
-    CGFloat itemWidth = self.mainCollectionView.frame.size.width / 3.0f; 
+    CGFloat itemWidth = self.mainCollectionView.frame.size.width / 2.0f;
 //    CGFloat itemHeight = self.mainCollectionView.frame.size.height;
     
     self.layout.itemSize = CGSizeMake(itemWidth, itemWidth);
@@ -33,6 +33,23 @@
 //    self.layout.sectionInset = UIEdgeInsetsMake(0, 10, 0, 10); //좌우 10씩 마진
     
 }
+
+//- (void)viewWillAppear:(BOOL)animated {
+//    [super viewWillAppear:animated];
+//
+//    // 사진 가로사이즈 이슈.
+//    //viewdidload 를 vieWillApper로 옮긴다면, 혹은 viewDidAppear
+//    CGFloat itemWidth = self.mainCollectionView.frame.size.width / 2.0f;
+//    //    CGFloat itemHeight = self.mainCollectionView.frame.size.height;
+//    
+//    self.layout.itemSize = CGSizeMake(itemWidth, itemWidth);
+//    
+//    //    CGFloat itemWidth = (self.mainCollectionView.frame.size.width -10 - 10 - 10) / 2.0f; // 좌우 10씩 빼주고 사이 10 빼주고
+//    //    self.layout.sectionInset = UIEdgeInsetsMake(0, 10, 0, 10); //좌우 10씩 마진
+//    
+//
+//    
+//}
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     
@@ -60,7 +77,11 @@
     
     ParkCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"ParkCell" forIndexPath:indexPath];
     [cell inputParkData:[self.source parkDataAtIndexPath:indexPath]];
-     
+    
+//    // 사진 가로사이즈 이슈.
+//    [cell setContentMode:UIViewContentModeScaleAspectFill];
+//    [cell setClipsToBounds:YES];
+    
     return cell;
 }
 @end

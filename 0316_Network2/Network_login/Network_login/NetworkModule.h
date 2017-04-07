@@ -16,4 +16,9 @@
       withPasswordReEnter:passWordReEnter
           completionBlock:(void (^)(BOOL isSuccess, NSDictionary *result))completionBlock;
 
++ (void)loginWithUsername:(NSString *)userName
+             withPassword:(NSString *)passWord
+          completionBlock:(void (^)(BOOL isSuccess, NSDictionary *result))completionBlock;
+
++ (void)logoutRequestCompletionBlock:(void (^)(BOOL isSuccess, NSDictionary *result))completionBlock;
 @end

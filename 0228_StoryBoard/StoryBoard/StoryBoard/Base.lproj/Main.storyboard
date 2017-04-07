@@ -22,15 +22,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xTR-J5-p9t">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xTR-J5-p9t">
                                 <rect key="frame" x="16" y="246" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="btnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QLY-3g-RCQ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9yP-nI-Gm2">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9yP-nI-Gm2">
                                 <rect key="frame" x="234" y="430" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Next"/>
                                 <connections>
                                     <segue destination="5eZ-os-7bs" kind="show" id="Ins-Nx-T7U"/>
@@ -61,21 +63,13 @@
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.92549669770603649" blue="0.48106650351293812" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Txg-9a-MdK">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Txg-9a-MdK">
                                 <rect key="frame" x="67" y="468" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.77942359978592812" green="1" blue="0.57236977059186767" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="Txg-9a-MdK" secondAttribute="trailing" id="5Zc-Ey-5A5"/>
-                            <constraint firstItem="Txg-9a-MdK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="IQz-kC-XBH"/>
-                            <constraint firstItem="Txg-9a-MdK" firstAttribute="top" secondItem="xTR-J5-p9t" secondAttribute="bottom" constant="100" id="IX4-6w-NPr"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Txg-9a-MdK" secondAttribute="trailing" id="Uhr-S6-YSz"/>
-                            <constraint firstItem="Txg-9a-MdK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Xhw-7K-ZKn"/>
-                            <constraint firstItem="Txg-9a-MdK" firstAttribute="top" secondItem="9yP-nI-Gm2" secondAttribute="bottom" id="rN0-Ed-OjI"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Txg-9a-MdK" secondAttribute="bottom" id="wl0-x3-gBu"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Olw-dc-h9D"/>
                     <connections>
@@ -91,7 +85,6 @@
         <!--Table View Controller-->
         <scene sceneID="hCW-tZ-rZW">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dI6-NE-gxD" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="ayH-bY-2zs" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="GFp-PA-v0n">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -163,13 +156,13 @@
                         <segue destination="40p-Cb-r3J" kind="show" id="VCe-pl-q7y"/>
                     </connections>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dI6-NE-gxD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="988" y="896.40179910044981"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="amc-rb-M70">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="VBJ-ES-zvr" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="8vX-d4-m2n" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="0em-DE-Gtn">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -208,13 +201,13 @@
                         </connections>
                     </tableView>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VBJ-ES-zvr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1953" y="896"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="vGh-e8-Ve7">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="nba-sl-wFA" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="1u2-7E-RUU" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Q1e-ge-8Yf"/>
@@ -282,13 +275,13 @@
                         </constraints>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nba-sl-wFA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="968.79999999999995" y="1579.1604197901052"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="bNL-3j-RDe">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5Tl-Kq-8N7" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="40p-Cb-r3J" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="X5s-dd-rdz"/>
@@ -298,37 +291,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VdZ-Qd-a65">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VdZ-Qd-a65">
                                 <rect key="frame" x="20" y="20" width="126" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.27885640574811188" green="0.69574537050427365" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="128" id="63m-9b-8iO"/>
-                                    <constraint firstAttribute="width" constant="126" id="c7x-Ma-47E"/>
-                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GKd-O4-BZt">
                                 <rect key="frame" x="164" y="20" width="195" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.50928146886083336" blue="0.055541830030147343" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QXF-X2-jfN">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QXF-X2-jfN">
                                 <rect key="frame" x="150" y="100" width="195" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.50928146890000003" blue="0.055541830030000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2q7-rm-cV1">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2q7-rm-cV1">
                                 <rect key="frame" x="51" y="269" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.45632112256896495" green="0.82376366933755452" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="z4g-qQ-tZe" firstAttribute="top" secondItem="2q7-rm-cV1" secondAttribute="bottom" id="0mk-gY-sib"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="2q7-rm-cV1" secondAttribute="trailing" id="3bG-0M-jMP"/>
-                            <constraint firstItem="2q7-rm-cV1" firstAttribute="top" secondItem="QXF-X2-jfN" secondAttribute="bottom" id="PKM-9r-gDM"/>
-                            <constraint firstItem="2q7-rm-cV1" firstAttribute="leading" secondItem="oNP-LR-FAp" secondAttribute="leadingMargin" id="yws-ga-ulh"/>
-                        </constraints>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Tl-Kq-8N7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2000.78125" y="1604.8828125"/>
         </scene>
